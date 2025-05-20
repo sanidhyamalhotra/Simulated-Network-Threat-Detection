@@ -23,7 +23,7 @@ This project simulates a real-world enterprise network, introduces common cyber 
 
 ### 🔹 1. Network Simulation (Cisco Packet Tracer)
 - Build a LAN with routers, switches, DNS server, web server, and client PCs
-- Save the topology file: `PacketTracer/enterprise_network.pkt`
+- Topology file: `PacketTracer/enterprise_network.pkt`
 
 ### 🔹 2. Threat Simulation
 - Simulate:
@@ -66,7 +66,7 @@ This project shows how even a basic simulated network can help:
 
 ---
 
-## 🚀 Can Others Use This Project?
+## 🚀 Can you Use This Project?
 
 Absolutely! This repo is public and designed to be **open-source and reusable** for learning or internal security awareness.
 
@@ -75,7 +75,7 @@ You can:
 - Modify the network topology or attack types
 - Use it as a blueprint for your own detection labs
 
-📄 If you'd like to contribute improvements or new detection rules, feel free to submit a pull request!
+📄 If you'd like to contribute improvements or new detection rules, feel free to drop a comment or submit a pull request!
 
 ---
 
