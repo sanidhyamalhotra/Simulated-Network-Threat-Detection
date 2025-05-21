@@ -4,7 +4,7 @@ This folder contains all the raw logs collected from various stages of the netwo
 
 ---
 
-## 🟢 clean_logs_with_timestamps.log
+## 🟢 clean_logs.log
 
 ### ✅ Purpose:
 This file contains **normal, baseline activity** in the network. No attacks are performed here.
