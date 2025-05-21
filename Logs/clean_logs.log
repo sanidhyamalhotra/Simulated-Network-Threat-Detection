@@ -1,7 +1,9 @@
-From PC 1 
+# ================================
+# Clean Log from PC1 (192.168.1.10)
+# ================================
 
 Cisco Packet Tracer PC Command Line 1.0
-C:\>ping 192.168.1.1 
+[2025-05-21 14:00:00] C:\>ping 192.168.1.1 
 
 Pinging 192.168.1.1 with 32 bytes of data:
 
@@ -15,7 +17,7 @@ Ping statistics for 192.168.1.1:
 Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 22ms, Average = 5ms
 
-C:\>ping 192.168.1.1 
+[2025-05-21 14:02:00] C:\>ping 192.168.1.1 
 
 Pinging 192.168.1.1 with 32 bytes of data:
 
@@ -29,7 +31,7 @@ Ping statistics for 192.168.1.1:
 Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 0ms, Average = 0ms
 
-C:\>ping 192.168.1.3
+[2025-05-21 14:04:00] C:\>ping 192.168.1.3
 
 Pinging 192.168.1.3 with 32 bytes of data:
 
@@ -43,7 +45,7 @@ Ping statistics for 192.168.1.3:
 Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 0ms, Average = 0ms
 
-C:\>ping 192.168.1.2
+[2025-05-21 14:06:00] C:\>ping 192.168.1.2
 
 Pinging 192.168.1.2 with 32 bytes of data:
 
@@ -57,7 +59,7 @@ Ping statistics for 192.168.1.2:
 Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 1ms, Average = 0ms
 
-C:\>ping 192.168.1.11
+[2025-05-21 14:08:00] C:\>ping 192.168.1.11
 
 Pinging 192.168.1.11 with 32 bytes of data:
 
@@ -71,12 +73,12 @@ Ping statistics for 192.168.1.11:
 Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 1ms, Average = 0ms
 
---------
-
-From PC 2
+# ================================
+# Clean Log from PC2 (192.168.1.11)
+# ================================
 
 Cisco Packet Tracer PC Command Line 1.0
-C:\>ping 192.168.1.3
+[2025-05-21 14:10:00] C:\>ping 192.168.1.3
 
 Pinging 192.168.1.3 with 32 bytes of data:
 
@@ -90,7 +92,7 @@ Ping statistics for 192.168.1.3:
 Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 1ms, Average = 0ms
 
-C:\>ping 192.168.1.10
+[2025-05-21 14:12:00] C:\>ping 192.168.1.10
 
 Pinging 192.168.1.10 with 32 bytes of data:
 
@@ -104,7 +106,7 @@ Ping statistics for 192.168.1.10:
 Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 1ms, Average = 0ms
 
-C:\>ping 192.168.1.10
+[2025-05-21 14:14:00] C:\>ping 192.168.1.10
 
 Pinging 192.168.1.10 with 32 bytes of data:
 
@@ -118,7 +120,7 @@ Ping statistics for 192.168.1.10:
 Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 2ms, Average = 0ms
 
-C:\>ping 192.168.1.3
+[2025-05-21 14:16:00] C:\>ping 192.168.1.3
 
 Pinging 192.168.1.3 with 32 bytes of data:
 
