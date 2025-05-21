@@ -28,7 +28,9 @@ Create a simulated enterprise network with basic routing and servers to later te
 6. Saved the file as `enterprise_network.pkt` and added a screenshot below
 
 📸 Screenshot:  
-![Network Topology](network_diagram.png)
+![Network Topology]
+![image](https://github.com/user-attachments/assets/306da64a-f17b-4eeb-bd32-b8af4ea42b50)
+
 
 
 ## 🗺️ Topology Screenshot
