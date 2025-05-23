@@ -10,33 +10,31 @@ This folder contains all the raw logs collected from various stages of the netwo
 This file contains **normal, baseline activity** in the network. No attacks are performed here.
 
 ### ✅ Captured:
-- From PC1 and PC2
+- From PC1 and PC2 (Packet Tracer)
 - Ping tests to router, web server, DNS, and each other
 - Includes simulated timestamps for realism
 - Used to compare against future attack behavior
 
----
 
-## 🔴 arp_attack.log
+## 🔥 arp_attack_real_log.log
 
 ### ✅ Purpose:
-This file contains logs captured during a **simulated ARP poisoning attack**.
+This file captures a **real ARP spoofing attack** executed from Kali Linux in GNS3.
 
 ### ✅ Captured:
-- From PC2: ARP spoofing command (`arp -s`)
-- From PC1: ARP table before/after
-- Ping results possibly affected by altered routing
-- Demonstrates what a red flag would look like in logs
+- From Kali: Terminal output of `arpspoof`
+- ARP reply flood toward victim device (`192.168.15.100`)
+- Simulates a live man-in-the-middle redirection scenario
 
 ---
 
 ## 📂 File Format
-All logs are saved as `.log` files using raw text format. These logs are manually collected from Packet Tracer CLI and formatted for Splunk ingestion.
+All logs are saved as `.log` files using raw text format. These logs are either simulated (Packet Tracer) or directly extracted from real terminal sessions (Kali).
 
 ---
 
 ## 📌 Usage
 These logs can be ingested into Splunk using:
 - File upload method
-- Assigned custom source types (`clean_traffic`, `arp_attack`, etc.)
-- Timeline-based detection using included timestamps
+- Assigned custom source types (`clean_traffic`, `arp_attack`, `real_arp_attack`)
+- Timeline-based detection using included timestamps or event gaps
