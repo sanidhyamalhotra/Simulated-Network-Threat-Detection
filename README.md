@@ -1,81 +1,79 @@
-# 🛡️ Simulated Network Threat Detection (Packet Tracer + Splunk)
+# 🛡️ Simulated Network Threat Detection (Packet Tracer + GNS3 + Splunk)
 
 ## 📌 Project Overview
 
-This project simulates a real-world enterprise network, introduces common cyber attacks, and demonstrates how to detect them using Splunk — a powerful SIEM tool.
+This project simulates a real-world enterprise network, introduces common cyber attacks, and demonstrates how to detect them using both simulated logs and a real lab environment. It uses tools like Cisco Packet Tracer, Kali Linux, GNS3, and Splunk — a powerful SIEM platform.
 
-> It’s a hands-on blueprint for how small-to-medium businesses (SMBs) can gain threat visibility using lightweight tools and practical detection logic.
+> A hands-on blueprint for cybersecurity students, small businesses, or trainers to build network visibility and attack detection capabilities.
 
 ---
 
 ## 🎯 Objectives
 
-- Simulate a small enterprise network using Cisco Packet Tracer
-- Generate both normal and malicious traffic (e.g., ARP spoofing, DNS spoofing, failed logins)
-- Export and process network logs
-- Ingest logs into **Splunk**
-- Detect threats using **SPL queries**, dashboards, and alerts
-- Package the whole project into a reusable blueprint for others
+- Simulate a small enterprise network using **Cisco Packet Tracer**
+- Set up a real network attack lab using **Kali Linux and GNS3**
+- Generate both normal and malicious traffic (e.g., ARP spoofing)
+- Capture and document logs from both simulated and real sources
+- Ingest logs into **Splunk** and write SPL queries for detection
+- Package the project into a clean, open-source structure for learning and reuse
 
 ---
 
 ## 🛠️ What’s Inside (How It’s Built)
 
-### 🔹 1. Network Simulation (Cisco Packet Tracer)
-- Build a LAN with routers, switches, DNS server, web server, and client PCs
+### 🔹 Phase 1: Simulated Environment (Packet Tracer)
+- Built a LAN with routers, switches, DNS/web servers, and client PCs
+- Normal traffic and CLI logs saved
 - Topology file: `PacketTracer/enterprise_network.pkt`
 
-### 🔹 2. Threat Simulation
-- Simulate:
-  - ARP Poisoning
-  - DNS Spoofing
-  - Brute-force login attempts
-- Export or replicate logs: `Logs/`
+### 🔹 Phase 2: Real Lab (Kali + GNS3)
+- Kali Linux VM connected to GNS3 via `VMnet1`
+- VPCS used as the simulated victim (PC1)
+- Ran live `arpspoof` attack from Kali
+- Captured output and documented every step
 
-### 🔹 3. Log Analysis (Splunk)
-- Install Splunk locally (or use Splunk Cloud trial)
-- Ingest logs into Splunk
-- Create detection logic with SPL
-- Build dashboards for visibility
+### 🔹 Log Analysis (Splunk)
+- Logs can be ingested into Splunk or ELK Stack
+- Includes timestamps and `.log` formatted text
+- Supports timeline correlation and event detection
 
-### 🔹 4. Documentation & Reuse
-- All configs, logs, queries, and summaries are stored here on GitHub
-- Anyone can reuse or modify for training, internal testing, or educational labs
+### 🔹 Documentation & Reuse
+- All attack steps, topology screenshots, and logs are included
+- Markdown files explain each phase and how to reproduce it
 
 ---
 
 ## 💡 Why This Project Matters
 
-Many companies, especially older or smaller ones, struggle with:
+Many organizations struggle with:
+- Outdated infrastructure
+- No centralized logging
+- No visibility into attacker activity
 
-- Outdated network configurations
-- No visibility into logs or threat activity
-- Limited budgets for security tooling
+This project helps:
+- Understand how attacks like ARP spoofing work
+- Learn detection fundamentals in Splunk
+- Practice setting up a working network lab
+- Build a portfolio-ready case study
 
-This project shows how even a basic simulated network can help:
-
-- Detect common attack patterns
-- Learn Splunk fundamentals
-- Improve security posture with low/no cost
-
-✅ It’s useful for:
+✅ Great for:
 - Cybersecurity students
 - SOC analyst trainees
-- SMBs testing network awareness
-- Instructors creating detection labs
+- SMB security consultants
+- Classroom labs or bootcamps
 
 ---
 
-## 🚀 Can you Use This Project?
+## 🚀 Can You Use This Project?
 
-Absolutely! This repo is public and designed to be **open-source and reusable** for learning or internal security awareness.
+Yes! Fork, clone, remix, or adapt this for:
 
-You can:
-- Clone/fork it for your own simulations
-- Modify the network topology or attack types
-- Use it as a blueprint for your own detection labs
+- Assignments
+- Student labs
+- Training modules
+- Proof-of-concept detection testing
 
-📄 If you'd like to contribute improvements or new detection rules, feel free to drop a comment or submit a pull request!
+📄 Contributions welcome — feel free to open issues or PRs.
 
 ---
 
@@ -83,11 +81,12 @@ You can:
 
 ```
 Simulated-Network-Threat-Detection/
-├── PacketTracer/           → Topology files and diagrams
-├── Attack_Scenarios/       → Summaries of attack methods
-├── Logs/                   → Log files (normal and malicious)
-├── Splunk/                 → SPL queries, dashboards, and alerts
-├── Report/                 → Final summary or write-up
-├── Demo_Video/ (optional)  → Demo walkthrough
-└── README.md               → This file
+├── PacketTracer/ → Topology files and diagrams
+├── GNS3_Simulation/ → Real ARP spoofing lab with Kali + GNS3
+├── Attack_Scenarios/ → Summaries of attack methods
+├── Logs/ → Log files (normal and malicious)
+├── Splunk/ → SPL queries, dashboards, and alerts
+├── Report/ → Final summary or write-up
+├── Wireshark/ → Packet captures (.pcap) from real lab
+└── README.md → This file
 ```
