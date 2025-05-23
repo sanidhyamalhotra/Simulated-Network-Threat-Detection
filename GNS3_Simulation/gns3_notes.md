@@ -1,29 +1,52 @@
 # 🛠️ GNS3 + Kali Lab Setup Notes
 
-This file documents the configuration of the GNS3 lab used for simulating the ARP spoofing attack.
+This document provides a step-by-step overview of how the ARP spoofing lab was created and run using GNS3 and Kali Linux.
 
-## 🔧 VM Settings
-- Kali VM set up in VMware with 20 GB disk, XFCE desktop
-- Network adapter: `Custom` → `VMnet1`
-- Tool installed: `dsniff` (for `arpspoof`)
-- IP address: `192.168.15.130`
+---
 
-## 🔧 GNS3 Configuration
-- Created a new project: `ARP-Spoofing-Lab`
-- Added:
-  - Cloud node (mapped to VMnet1)
-  - VPCS (victim)
-- Linked Cloud ↔ VPCS with cable
-- VPCS config:
-  ```bash
-  ip 192.168.15.100 255.255.255.0 192.168.15.1
-  ```
+## ⚙️ VM Configuration (Kali Linux)
 
-## ✅ Connectivity Test
-- Ping from PC1 to Kali: ✅ Successful
-- Ping from Kali to PC1: ✅ Successful
+- **Tool used:** VMware Workstation
+- **Disk:** 20 GB
+- **Network Adapter:** Custom → `VMnet1`
+- **Desktop:** XFCE (default)
+- **Tools Installed:** `dsniff` (includes `arpspoof`), `bettercap` (optional)
+- **Final IP Address:** `192.168.15.130`
 
-## 🧠 Notes
-- VPCS acts as a simple victim on the same subnet
-- Cloud node bridges Kali’s VM network with GNS3 topology
-- Wireshark or `arp -a` can verify spoof effectiveness
+---
+
+## 🧭 GNS3 Lab Setup
+
+### Devices Used:
+- **Cloud Node**: bridges GNS3 to Kali VM via `VMnet1`
+- **VPCS Node**: acts as the victim (PC1)
+
+### 📸 GNS3 Topology Diagram
+
+![GNS3 Topology](topology_screenshot.png)
+
+---
+
+## 🧱 Step-by-Step GNS3 Configuration
+
+1. **Create New Project**  
+   Open GNS3 → File → New Project → `ARP-Spoofing-Lab`
+
+2. **Drag Devices into Workspace**
+   - Cloud node (from Built-in > Cloud)
+   - VPCS (from End Devices > VPCS)
+
+3. **Configure Cloud Node**
+   - Right-click Cloud → **Configure**
+   - Go to **NIO Ethernet**
+   - Select: `VMware Network Adapter VMnet1`
+   - Click **Add → Apply → OK**
+
+4. **Link Cloud to VPCS**
+   - Use the cable tool
+   - Connect Cloud’s Ethernet0 ↔ VPCS’s f0
+
+5. **Configure VPCS IP**
+   Open PC1 terminal:
+   ```bash
+   ip 192.168.15.100 255.255.255.0 192.168.15.1
