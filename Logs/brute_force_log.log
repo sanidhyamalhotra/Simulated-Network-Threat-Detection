@@ -1,0 +1,17 @@
+Hydra v9.5 (c) 2023 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2025-05-27 02:13:35
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 14344399 login tries (l:1/p:14344399), ~3586100 tries per task
+[DATA] attacking ssh://172.21.48.121:22/
+[STATUS] 72.00 tries/min, 72 tries in 00:01h, 14344327 to do in 3320:27h, 4 active
+[STATUS] 68.00 tries/min, 204 tries in 00:03h, 14344195 to do in 3515:45h, 4 active
+[STATUS] 65.14 tries/min, 456 tries in 00:07h, 14343943 to do in 3669:53h, 4 active
+[STATUS] 64.87 tries/min, 780 tries in 00:12h, 14343619 to do in 3688:44h, 4 active
+[STATUS] 66.52 tries/min, 1080 tries in 00:17h, 14343319 to do in 3594:30h, 4 active
+[STATUS] 64.11 tries/min, 1440 tries in 00:23h, 14342959 to do in 3733:21h, 4 active
+[STATUS] 63.02 tries/min, 1800 tries in 00:28h, 14342600 to do in 3797:00h, 4 active
+[STATUS] 62.90 tries/min, 2200 tries in 00:35h, 14342200 to do in 3808:45h, 4 active
+[STATUS] 61.45 tries/min, 2500 tries in 00:41h, 14341900 to do in 3892:19h, 4 active
+[STATUS] 60.80 tries/min, 2900 tries in 00:48h, 14341500 to do in 3925:42h, 4 active
+[STATUS] 59.98 tries/min, 3300 tries in 00:55h, 14341100 to do in 3988:05h, 4 active
+^CThe session file ./hydra.restore was written. Type "hydra -R" to resume session.
