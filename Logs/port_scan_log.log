@@ -1,0 +1,2022 @@
+┌──(user㉿kali)-[~]
+└─$ nmap -sS -Pn 192.168.15.100 -p 1-1000 -v
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-27 00:28 PDT
+Initiating ARP Ping Scan at 00:28
+Scanning 192.168.15.100 [1 port]
+Completed ARP Ping Scan at 00:28, 0.17s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 00:28
+Completed Parallel DNS resolution of 1 host. at 00:28, 13.00s elapsed
+Initiating SYN Stealth Scan at 00:28
+Scanning 192.168.15.100 [1000 ports]
+Discovered open port 53/tcp on 192.168.15.100
+Discovered open port 443/tcp on 192.168.15.100
+Discovered open port 587/tcp on 192.168.15.100
+Discovered open port 113/tcp on 192.168.15.100
+Discovered open port 256/tcp on 192.168.15.100
+Discovered open port 21/tcp on 192.168.15.100
+Discovered open port 25/tcp on 192.168.15.100
+Discovered open port 23/tcp on 192.168.15.100
+Discovered open port 143/tcp on 192.168.15.100
+Discovered open port 554/tcp on 192.168.15.100
+Discovered open port 135/tcp on 192.168.15.100
+Discovered open port 199/tcp on 192.168.15.100
+Discovered open port 22/tcp on 192.168.15.100
+Discovered open port 993/tcp on 192.168.15.100
+Discovered open port 445/tcp on 192.168.15.100
+Discovered open port 110/tcp on 192.168.15.100
+Discovered open port 111/tcp on 192.168.15.100
+Discovered open port 995/tcp on 192.168.15.100
+Discovered open port 139/tcp on 192.168.15.100
+Discovered open port 80/tcp on 192.168.15.100
+Discovered open port 357/tcp on 192.168.15.100
+Discovered open port 757/tcp on 192.168.15.100
+Discovered open port 568/tcp on 192.168.15.100
+Discovered open port 923/tcp on 192.168.15.100
+Discovered open port 34/tcp on 192.168.15.100
+Discovered open port 234/tcp on 192.168.15.100
+Discovered open port 88/tcp on 192.168.15.100
+Discovered open port 188/tcp on 192.168.15.100
+Discovered open port 259/tcp on 192.168.15.100
+Discovered open port 989/tcp on 192.168.15.100
+Discovered open port 893/tcp on 192.168.15.100
+Discovered open port 230/tcp on 192.168.15.100
+Discovered open port 571/tcp on 192.168.15.100
+Discovered open port 576/tcp on 192.168.15.100
+Discovered open port 417/tcp on 192.168.15.100
+Discovered open port 320/tcp on 192.168.15.100
+Discovered open port 997/tcp on 192.168.15.100
+Discovered open port 250/tcp on 192.168.15.100
+Discovered open port 574/tcp on 192.168.15.100
+Discovered open port 683/tcp on 192.168.15.100
+Discovered open port 803/tcp on 192.168.15.100
+Discovered open port 333/tcp on 192.168.15.100
+Discovered open port 633/tcp on 192.168.15.100
+Discovered open port 486/tcp on 192.168.15.100
+Discovered open port 589/tcp on 192.168.15.100
+Discovered open port 653/tcp on 192.168.15.100
+Discovered open port 446/tcp on 192.168.15.100
+Discovered open port 755/tcp on 192.168.15.100
+Discovered open port 270/tcp on 192.168.15.100
+Discovered open port 61/tcp on 192.168.15.100
+Discovered open port 423/tcp on 192.168.15.100
+Discovered open port 714/tcp on 192.168.15.100
+Discovered open port 560/tcp on 192.168.15.100
+Discovered open port 345/tcp on 192.168.15.100
+Discovered open port 723/tcp on 192.168.15.100
+Discovered open port 827/tcp on 192.168.15.100
+Discovered open port 94/tcp on 192.168.15.100
+Discovered open port 290/tcp on 192.168.15.100
+Discovered open port 337/tcp on 192.168.15.100
+Discovered open port 279/tcp on 192.168.15.100
+Discovered open port 491/tcp on 192.168.15.100
+Discovered open port 509/tcp on 192.168.15.100
+Discovered open port 876/tcp on 192.168.15.100
+Discovered open port 77/tcp on 192.168.15.100
+Discovered open port 10/tcp on 192.168.15.100
+Discovered open port 802/tcp on 192.168.15.100
+Discovered open port 886/tcp on 192.168.15.100
+Discovered open port 823/tcp on 192.168.15.100
+Discovered open port 239/tcp on 192.168.15.100
+Discovered open port 155/tcp on 192.168.15.100
+Discovered open port 425/tcp on 192.168.15.100
+Discovered open port 651/tcp on 192.168.15.100
+Discovered open port 72/tcp on 192.168.15.100
+Discovered open port 968/tcp on 192.168.15.100
+Discovered open port 792/tcp on 192.168.15.100
+Discovered open port 838/tcp on 192.168.15.100
+Discovered open port 763/tcp on 192.168.15.100
+Discovered open port 918/tcp on 192.168.15.100
+Discovered open port 847/tcp on 192.168.15.100
+Discovered open port 299/tcp on 192.168.15.100
+Discovered open port 628/tcp on 192.168.15.100
+Discovered open port 364/tcp on 192.168.15.100
+Discovered open port 372/tcp on 192.168.15.100
+Discovered open port 994/tcp on 192.168.15.100
+Discovered open port 642/tcp on 192.168.15.100
+Discovered open port 782/tcp on 192.168.15.100
+Discovered open port 590/tcp on 192.168.15.100
+Discovered open port 622/tcp on 192.168.15.100
+Discovered open port 743/tcp on 192.168.15.100
+Discovered open port 910/tcp on 192.168.15.100
+Discovered open port 42/tcp on 192.168.15.100
+Discovered open port 106/tcp on 192.168.15.100
+Discovered open port 26/tcp on 192.168.15.100
+Discovered open port 707/tcp on 192.168.15.100
+Discovered open port 820/tcp on 192.168.15.100
+Discovered open port 963/tcp on 192.168.15.100
+Discovered open port 551/tcp on 192.168.15.100
+Discovered open port 12/tcp on 192.168.15.100
+Discovered open port 18/tcp on 192.168.15.100
+Discovered open port 264/tcp on 192.168.15.100
+Discovered open port 892/tcp on 192.168.15.100
+Discovered open port 261/tcp on 192.168.15.100
+Discovered open port 456/tcp on 192.168.15.100
+Discovered open port 691/tcp on 192.168.15.100
+Discovered open port 770/tcp on 192.168.15.100
+Discovered open port 875/tcp on 192.168.15.100
+Discovered open port 745/tcp on 192.168.15.100
+Discovered open port 670/tcp on 192.168.15.100
+Discovered open port 902/tcp on 192.168.15.100
+Discovered open port 943/tcp on 192.168.15.100
+Discovered open port 644/tcp on 192.168.15.100
+Discovered open port 799/tcp on 192.168.15.100
+Discovered open port 529/tcp on 192.168.15.100
+Discovered open port 869/tcp on 192.168.15.100
+Discovered open port 469/tcp on 192.168.15.100
+Discovered open port 973/tcp on 192.168.15.100
+Discovered open port 613/tcp on 192.168.15.100
+Discovered open port 187/tcp on 192.168.15.100
+Discovered open port 104/tcp on 192.168.15.100
+Discovered open port 114/tcp on 192.168.15.100
+Discovered open port 399/tcp on 192.168.15.100
+Discovered open port 373/tcp on 192.168.15.100
+Discovered open port 573/tcp on 192.168.15.100
+Discovered open port 442/tcp on 192.168.15.100
+Discovered open port 371/tcp on 192.168.15.100
+Discovered open port 331/tcp on 192.168.15.100
+Discovered open port 679/tcp on 192.168.15.100
+Discovered open port 438/tcp on 192.168.15.100
+Discovered open port 389/tcp on 192.168.15.100
+Discovered open port 596/tcp on 192.168.15.100
+Discovered open port 166/tcp on 192.168.15.100
+Discovered open port 502/tcp on 192.168.15.100
+Discovered open port 684/tcp on 192.168.15.100
+Discovered open port 463/tcp on 192.168.15.100
+Discovered open port 132/tcp on 192.168.15.100
+Discovered open port 833/tcp on 192.168.15.100
+Discovered open port 856/tcp on 192.168.15.100
+Discovered open port 394/tcp on 192.168.15.100
+Discovered open port 173/tcp on 192.168.15.100
+Discovered open port 374/tcp on 192.168.15.100
+Discovered open port 119/tcp on 192.168.15.100
+Discovered open port 240/tcp on 192.168.15.100
+Discovered open port 161/tcp on 192.168.15.100
+Discovered open port 288/tcp on 192.168.15.100
+Discovered open port 470/tcp on 192.168.15.100
+Discovered open port 724/tcp on 192.168.15.100
+Discovered open port 895/tcp on 192.168.15.100
+Discovered open port 536/tcp on 192.168.15.100
+Discovered open port 751/tcp on 192.168.15.100
+Discovered open port 202/tcp on 192.168.15.100
+Discovered open port 620/tcp on 192.168.15.100
+Discovered open port 273/tcp on 192.168.15.100
+Discovered open port 210/tcp on 192.168.15.100
+Discovered open port 985/tcp on 192.168.15.100
+Discovered open port 749/tcp on 192.168.15.100
+Discovered open port 393/tcp on 192.168.15.100
+Discovered open port 55/tcp on 192.168.15.100
+Discovered open port 519/tcp on 192.168.15.100
+Discovered open port 700/tcp on 192.168.15.100
+Discovered open port 375/tcp on 192.168.15.100
+Discovered open port 926/tcp on 192.168.15.100
+Discovered open port 487/tcp on 192.168.15.100
+Discovered open port 197/tcp on 192.168.15.100
+Discovered open port 33/tcp on 192.168.15.100
+Discovered open port 422/tcp on 192.168.15.100
+Discovered open port 548/tcp on 192.168.15.100
+Discovered open port 140/tcp on 192.168.15.100
+Discovered open port 11/tcp on 192.168.15.100
+Discovered open port 666/tcp on 192.168.15.100
+Discovered open port 151/tcp on 192.168.15.100
+Discovered open port 142/tcp on 192.168.15.100
+Discovered open port 826/tcp on 192.168.15.100
+Discovered open port 130/tcp on 192.168.15.100
+Discovered open port 794/tcp on 192.168.15.100
+Discovered open port 285/tcp on 192.168.15.100
+Discovered open port 522/tcp on 192.168.15.100
+Discovered open port 878/tcp on 192.168.15.100
+Discovered open port 265/tcp on 192.168.15.100
+Discovered open port 275/tcp on 192.168.15.100
+Discovered open port 255/tcp on 192.168.15.100
+Discovered open port 546/tcp on 192.168.15.100
+Discovered open port 578/tcp on 192.168.15.100
+Discovered open port 176/tcp on 192.168.15.100
+Discovered open port 227/tcp on 192.168.15.100
+Discovered open port 6/tcp on 192.168.15.100
+Discovered open port 898/tcp on 192.168.15.100
+Discovered open port 73/tcp on 192.168.15.100
+Discovered open port 218/tcp on 192.168.15.100
+Discovered open port 781/tcp on 192.168.15.100
+Discovered open port 594/tcp on 192.168.15.100
+Discovered open port 496/tcp on 192.168.15.100
+Discovered open port 547/tcp on 192.168.15.100
+Discovered open port 89/tcp on 192.168.15.100
+Discovered open port 610/tcp on 192.168.15.100
+Discovered open port 501/tcp on 192.168.15.100
+Discovered open port 577/tcp on 192.168.15.100
+Discovered open port 636/tcp on 192.168.15.100
+Discovered open port 101/tcp on 192.168.15.100
+Discovered open port 478/tcp on 192.168.15.100
+Discovered open port 738/tcp on 192.168.15.100
+Discovered open port 494/tcp on 192.168.15.100
+Discovered open port 795/tcp on 192.168.15.100
+Discovered open port 483/tcp on 192.168.15.100
+Discovered open port 632/tcp on 192.168.15.100
+Discovered open port 706/tcp on 192.168.15.100
+Discovered open port 495/tcp on 192.168.15.100
+Discovered open port 523/tcp on 192.168.15.100
+Discovered open port 880/tcp on 192.168.15.100
+Discovered open port 639/tcp on 192.168.15.100
+Discovered open port 534/tcp on 192.168.15.100
+Discovered open port 675/tcp on 192.168.15.100
+Discovered open port 79/tcp on 192.168.15.100
+Discovered open port 129/tcp on 192.168.15.100
+Discovered open port 363/tcp on 192.168.15.100
+Discovered open port 961/tcp on 192.168.15.100
+Discovered open port 705/tcp on 192.168.15.100
+Discovered open port 400/tcp on 192.168.15.100
+Discovered open port 516/tcp on 192.168.15.100
+Discovered open port 492/tcp on 192.168.15.100
+Discovered open port 933/tcp on 192.168.15.100
+Discovered open port 541/tcp on 192.168.15.100
+Discovered open port 351/tcp on 192.168.15.100
+Discovered open port 742/tcp on 192.168.15.100
+Discovered open port 766/tcp on 192.168.15.100
+Discovered open port 678/tcp on 192.168.15.100
+Discovered open port 321/tcp on 192.168.15.100
+Discovered open port 76/tcp on 192.168.15.100
+Discovered open port 284/tcp on 192.168.15.100
+Discovered open port 865/tcp on 192.168.15.100
+Discovered open port 593/tcp on 192.168.15.100
+Discovered open port 115/tcp on 192.168.15.100
+Discovered open port 183/tcp on 192.168.15.100
+Discovered open port 591/tcp on 192.168.15.100
+Discovered open port 420/tcp on 192.168.15.100
+Discovered open port 2/tcp on 192.168.15.100
+Discovered open port 697/tcp on 192.168.15.100
+Discovered open port 715/tcp on 192.168.15.100
+Discovered open port 16/tcp on 192.168.15.100
+Discovered open port 704/tcp on 192.168.15.100
+Discovered open port 388/tcp on 192.168.15.100
+Discovered open port 392/tcp on 192.168.15.100
+Discovered open port 338/tcp on 192.168.15.100
+Discovered open port 647/tcp on 192.168.15.100
+Discovered open port 286/tcp on 192.168.15.100
+Discovered open port 814/tcp on 192.168.15.100
+Discovered open port 137/tcp on 192.168.15.100
+Discovered open port 396/tcp on 192.168.15.100
+Discovered open port 196/tcp on 192.168.15.100
+Discovered open port 515/tcp on 192.168.15.100
+Discovered open port 379/tcp on 192.168.15.100
+Discovered open port 15/tcp on 192.168.15.100
+Discovered open port 283/tcp on 192.168.15.100
+Discovered open port 136/tcp on 192.168.15.100
+Discovered open port 217/tcp on 192.168.15.100
+Discovered open port 941/tcp on 192.168.15.100
+Discovered open port 638/tcp on 192.168.15.100
+Discovered open port 505/tcp on 192.168.15.100
+Discovered open port 200/tcp on 192.168.15.100
+Discovered open port 930/tcp on 192.168.15.100
+Discovered open port 980/tcp on 192.168.15.100
+Discovered open port 329/tcp on 192.168.15.100
+Discovered open port 150/tcp on 192.168.15.100
+Discovered open port 453/tcp on 192.168.15.100
+Discovered open port 879/tcp on 192.168.15.100
+Discovered open port 877/tcp on 192.168.15.100
+Discovered open port 708/tcp on 192.168.15.100
+Discovered open port 732/tcp on 192.168.15.100
+Discovered open port 181/tcp on 192.168.15.100
+Discovered open port 154/tcp on 192.168.15.100
+Discovered open port 744/tcp on 192.168.15.100
+Discovered open port 246/tcp on 192.168.15.100
+Discovered open port 328/tcp on 192.168.15.100
+Discovered open port 245/tcp on 192.168.15.100
+Discovered open port 599/tcp on 192.168.15.100
+Discovered open port 996/tcp on 192.168.15.100
+Discovered open port 127/tcp on 192.168.15.100
+Discovered open port 78/tcp on 192.168.15.100
+Discovered open port 788/tcp on 192.168.15.100
+Discovered open port 8/tcp on 192.168.15.100
+Discovered open port 462/tcp on 192.168.15.100
+Discovered open port 243/tcp on 192.168.15.100
+Discovered open port 934/tcp on 192.168.15.100
+Discovered open port 572/tcp on 192.168.15.100
+Discovered open port 5/tcp on 192.168.15.100
+Discovered open port 85/tcp on 192.168.15.100
+Discovered open port 43/tcp on 192.168.15.100
+Discovered open port 756/tcp on 192.168.15.100
+Discovered open port 201/tcp on 192.168.15.100
+Discovered open port 220/tcp on 192.168.15.100
+Discovered open port 98/tcp on 192.168.15.100
+Discovered open port 174/tcp on 192.168.15.100
+Discovered open port 27/tcp on 192.168.15.100
+Discovered open port 514/tcp on 192.168.15.100
+Discovered open port 314/tcp on 192.168.15.100
+Discovered open port 625/tcp on 192.168.15.100
+Discovered open port 429/tcp on 192.168.15.100
+Discovered open port 920/tcp on 192.168.15.100
+Discovered open port 569/tcp on 192.168.15.100
+Discovered open port 911/tcp on 192.168.15.100
+Discovered open port 758/tcp on 192.168.15.100
+Discovered open port 884/tcp on 192.168.15.100
+Discovered open port 597/tcp on 192.168.15.100
+Discovered open port 232/tcp on 192.168.15.100
+Discovered open port 842/tcp on 192.168.15.100
+Discovered open port 592/tcp on 192.168.15.100
+Discovered open port 382/tcp on 192.168.15.100
+Discovered open port 528/tcp on 192.168.15.100
+Discovered open port 769/tcp on 192.168.15.100
+Discovered open port 586/tcp on 192.168.15.100
+Discovered open port 472/tcp on 192.168.15.100
+Discovered open port 431/tcp on 192.168.15.100
+Discovered open port 409/tcp on 192.168.15.100
+Discovered open port 437/tcp on 192.168.15.100
+Discovered open port 231/tcp on 192.168.15.100
+Discovered open port 222/tcp on 192.168.15.100
+Discovered open port 430/tcp on 192.168.15.100
+Discovered open port 99/tcp on 192.168.15.100
+Discovered open port 711/tcp on 192.168.15.100
+Discovered open port 3/tcp on 192.168.15.100
+Discovered open port 178/tcp on 192.168.15.100
+Discovered open port 13/tcp on 192.168.15.100
+Discovered open port 481/tcp on 192.168.15.100
+Discovered open port 924/tcp on 192.168.15.100
+Discovered open port 281/tcp on 192.168.15.100
+Discovered open port 953/tcp on 192.168.15.100
+Discovered open port 960/tcp on 192.168.15.100
+Discovered open port 913/tcp on 192.168.15.100
+Discovered open port 293/tcp on 192.168.15.100
+Discovered open port 149/tcp on 192.168.15.100
+Discovered open port 45/tcp on 192.168.15.100
+Discovered open port 179/tcp on 192.168.15.100
+Discovered open port 1000/tcp on 192.168.15.100
+Discovered open port 780/tcp on 192.168.15.100
+Discovered open port 238/tcp on 192.168.15.100
+Discovered open port 817/tcp on 192.168.15.100
+Discovered open port 175/tcp on 192.168.15.100
+Discovered open port 947/tcp on 192.168.15.100
+Discovered open port 203/tcp on 192.168.15.100
+Discovered open port 277/tcp on 192.168.15.100
+Discovered open port 853/tcp on 192.168.15.100
+Discovered open port 148/tcp on 192.168.15.100
+Discovered open port 931/tcp on 192.168.15.100
+Discovered open port 836/tcp on 192.168.15.100
+Discovered open port 507/tcp on 192.168.15.100
+Discovered open port 535/tcp on 192.168.15.100
+Discovered open port 771/tcp on 192.168.15.100
+Discovered open port 761/tcp on 192.168.15.100
+Discovered open port 681/tcp on 192.168.15.100
+Discovered open port 449/tcp on 192.168.15.100
+Discovered open port 402/tcp on 192.168.15.100
+Discovered open port 804/tcp on 192.168.15.100
+Discovered open port 655/tcp on 192.168.15.100
+Discovered open port 405/tcp on 192.168.15.100
+Discovered open port 461/tcp on 192.168.15.100
+Discovered open port 124/tcp on 192.168.15.100
+Discovered open port 346/tcp on 192.168.15.100
+Discovered open port 739/tcp on 192.168.15.100
+Discovered open port 36/tcp on 192.168.15.100
+Discovered open port 138/tcp on 192.168.15.100
+Discovered open port 484/tcp on 192.168.15.100
+Discovered open port 413/tcp on 192.168.15.100
+Discovered open port 682/tcp on 192.168.15.100
+Discovered open port 235/tcp on 192.168.15.100
+Discovered open port 368/tcp on 192.168.15.100
+Discovered open port 302/tcp on 192.168.15.100
+Discovered open port 974/tcp on 192.168.15.100
+Discovered open port 194/tcp on 192.168.15.100
+Discovered open port 906/tcp on 192.168.15.100
+Discovered open port 693/tcp on 192.168.15.100
+Discovered open port 945/tcp on 192.168.15.100
+Discovered open port 247/tcp on 192.168.15.100
+Discovered open port 92/tcp on 192.168.15.100
+Discovered open port 575/tcp on 192.168.15.100
+Discovered open port 182/tcp on 192.168.15.100
+Discovered open port 349/tcp on 192.168.15.100
+Discovered open port 100/tcp on 192.168.15.100
+Discovered open port 808/tcp on 192.168.15.100
+Discovered open port 650/tcp on 192.168.15.100
+Discovered open port 266/tcp on 192.168.15.100
+Discovered open port 165/tcp on 192.168.15.100
+Discovered open port 356/tcp on 192.168.15.100
+Discovered open port 440/tcp on 192.168.15.100
+Discovered open port 822/tcp on 192.168.15.100
+Discovered open port 735/tcp on 192.168.15.100
+Discovered open port 695/tcp on 192.168.15.100
+Discovered open port 475/tcp on 192.168.15.100
+Discovered open port 458/tcp on 192.168.15.100
+Discovered open port 267/tcp on 192.168.15.100
+Discovered open port 815/tcp on 192.168.15.100
+Discovered open port 555/tcp on 192.168.15.100
+Discovered open port 604/tcp on 192.168.15.100
+Discovered open port 459/tcp on 192.168.15.100
+Discovered open port 207/tcp on 192.168.15.100
+Discovered open port 401/tcp on 192.168.15.100
+Discovered open port 152/tcp on 192.168.15.100
+Discovered open port 665/tcp on 192.168.15.100
+Discovered open port 474/tcp on 192.168.15.100
+Discovered open port 120/tcp on 192.168.15.100
+Discovered open port 303/tcp on 192.168.15.100
+Discovered open port 493/tcp on 192.168.15.100
+Discovered open port 159/tcp on 192.168.15.100
+Discovered open port 954/tcp on 192.168.15.100
+Discovered open port 206/tcp on 192.168.15.100
+Discovered open port 180/tcp on 192.168.15.100
+Discovered open port 128/tcp on 192.168.15.100
+Discovered open port 223/tcp on 192.168.15.100
+Discovered open port 619/tcp on 192.168.15.100
+Discovered open port 126/tcp on 192.168.15.100
+Discovered open port 376/tcp on 192.168.15.100
+Discovered open port 153/tcp on 192.168.15.100
+Discovered open port 990/tcp on 192.168.15.100
+Discovered open port 703/tcp on 192.168.15.100
+Discovered open port 17/tcp on 192.168.15.100
+Discovered open port 614/tcp on 192.168.15.100
+Discovered open port 318/tcp on 192.168.15.100
+Discovered open port 49/tcp on 192.168.15.100
+Discovered open port 553/tcp on 192.168.15.100
+Discovered open port 58/tcp on 192.168.15.100
+Discovered open port 398/tcp on 192.168.15.100
+Discovered open port 845/tcp on 192.168.15.100
+Discovered open port 309/tcp on 192.168.15.100
+Discovered open port 9/tcp on 192.168.15.100
+Discovered open port 828/tcp on 192.168.15.100
+Discovered open port 867/tcp on 192.168.15.100
+Discovered open port 415/tcp on 192.168.15.100
+Discovered open port 640/tcp on 192.168.15.100
+Discovered open port 96/tcp on 192.168.15.100
+Discovered open port 450/tcp on 192.168.15.100
+Discovered open port 635/tcp on 192.168.15.100
+Discovered open port 830/tcp on 192.168.15.100
+Discovered open port 987/tcp on 192.168.15.100
+Discovered open port 605/tcp on 192.168.15.100
+Discovered open port 559/tcp on 192.168.15.100
+Discovered open port 600/tcp on 192.168.15.100
+Discovered open port 778/tcp on 192.168.15.100
+Discovered open port 109/tcp on 192.168.15.100
+Discovered open port 380/tcp on 192.168.15.100
+Discovered open port 890/tcp on 192.168.15.100
+Discovered open port 416/tcp on 192.168.15.100
+Discovered open port 249/tcp on 192.168.15.100
+Discovered open port 800/tcp on 192.168.15.100
+Discovered open port 537/tcp on 192.168.15.100
+Discovered open port 518/tcp on 192.168.15.100
+Discovered open port 831/tcp on 192.168.15.100
+Discovered open port 499/tcp on 192.168.15.100
+Discovered open port 216/tcp on 192.168.15.100
+Discovered open port 86/tcp on 192.168.15.100
+Discovered open port 603/tcp on 192.168.15.100
+Discovered open port 521/tcp on 192.168.15.100
+Discovered open port 74/tcp on 192.168.15.100
+Discovered open port 696/tcp on 192.168.15.100
+Discovered open port 226/tcp on 192.168.15.100
+Discovered open port 248/tcp on 192.168.15.100
+Discovered open port 970/tcp on 192.168.15.100
+Discovered open port 957/tcp on 192.168.15.100
+Discovered open port 91/tcp on 192.168.15.100
+Discovered open port 765/tcp on 192.168.15.100
+Discovered open port 938/tcp on 192.168.15.100
+Discovered open port 824/tcp on 192.168.15.100
+Discovered open port 386/tcp on 192.168.15.100
+Discovered open port 427/tcp on 192.168.15.100
+Discovered open port 304/tcp on 192.168.15.100
+Discovered open port 717/tcp on 192.168.15.100
+Discovered open port 942/tcp on 192.168.15.100
+Discovered open port 330/tcp on 192.168.15.100
+Discovered open port 466/tcp on 192.168.15.100
+Discovered open port 408/tcp on 192.168.15.100
+Discovered open port 607/tcp on 192.168.15.100
+Discovered open port 397/tcp on 192.168.15.100
+Discovered open port 843/tcp on 192.168.15.100
+Discovered open port 837/tcp on 192.168.15.100
+Discovered open port 863/tcp on 192.168.15.100
+Discovered open port 366/tcp on 192.168.15.100
+Discovered open port 860/tcp on 192.168.15.100
+Discovered open port 189/tcp on 192.168.15.100
+Discovered open port 813/tcp on 192.168.15.100
+Discovered open port 441/tcp on 192.168.15.100
+Discovered open port 19/tcp on 192.168.15.100
+Discovered open port 213/tcp on 192.168.15.100
+Discovered open port 901/tcp on 192.168.15.100
+Discovered open port 103/tcp on 192.168.15.100
+Discovered open port 123/tcp on 192.168.15.100
+Discovered open port 948/tcp on 192.168.15.100
+Discovered open port 676/tcp on 192.168.15.100
+Discovered open port 190/tcp on 192.168.15.100
+Discovered open port 768/tcp on 192.168.15.100
+Discovered open port 490/tcp on 192.168.15.100
+Discovered open port 369/tcp on 192.168.15.100
+Discovered open port 84/tcp on 192.168.15.100
+Discovered open port 87/tcp on 192.168.15.100
+Discovered open port 673/tcp on 192.168.15.100
+Discovered open port 790/tcp on 192.168.15.100
+Discovered open port 661/tcp on 192.168.15.100
+Discovered open port 617/tcp on 192.168.15.100
+Discovered open port 988/tcp on 192.168.15.100
+Discovered open port 323/tcp on 192.168.15.100
+Discovered open port 701/tcp on 192.168.15.100
+Discovered open port 656/tcp on 192.168.15.100
+Discovered open port 342/tcp on 192.168.15.100
+Discovered open port 204/tcp on 192.168.15.100
+Discovered open port 7/tcp on 192.168.15.100
+Discovered open port 258/tcp on 192.168.15.100
+Discovered open port 287/tcp on 192.168.15.100
+Discovered open port 825/tcp on 192.168.15.100
+Discovered open port 414/tcp on 192.168.15.100
+Discovered open port 208/tcp on 192.168.15.100
+Discovered open port 254/tcp on 192.168.15.100
+Discovered open port 460/tcp on 192.168.15.100
+Discovered open port 623/tcp on 192.168.15.100
+Discovered open port 272/tcp on 192.168.15.100
+Discovered open port 916/tcp on 192.168.15.100
+Discovered open port 774/tcp on 192.168.15.100
+Discovered open port 612/tcp on 192.168.15.100
+Discovered open port 344/tcp on 192.168.15.100
+Discovered open port 503/tcp on 192.168.15.100
+Discovered open port 543/tcp on 192.168.15.100
+Discovered open port 698/tcp on 192.168.15.100
+Discovered open port 448/tcp on 192.168.15.100
+Discovered open port 170/tcp on 192.168.15.100
+Discovered open port 353/tcp on 192.168.15.100
+Discovered open port 192/tcp on 192.168.15.100
+Discovered open port 689/tcp on 192.168.15.100
+Discovered open port 962/tcp on 192.168.15.100
+Discovered open port 54/tcp on 192.168.15.100
+Discovered open port 773/tcp on 192.168.15.100
+Discovered open port 873/tcp on 192.168.15.100
+Discovered open port 311/tcp on 192.168.15.100
+Discovered open port 513/tcp on 192.168.15.100
+Discovered open port 919/tcp on 192.168.15.100
+Discovered open port 897/tcp on 192.168.15.100
+Discovered open port 922/tcp on 192.168.15.100
+Discovered open port 964/tcp on 192.168.15.100
+Discovered open port 24/tcp on 192.168.15.100
+Discovered open port 229/tcp on 192.168.15.100
+Discovered open port 669/tcp on 192.168.15.100
+Discovered open port 370/tcp on 192.168.15.100
+Discovered open port 672/tcp on 192.168.15.100
+Discovered open port 383/tcp on 192.168.15.100
+Discovered open port 563/tcp on 192.168.15.100
+Discovered open port 835/tcp on 192.168.15.100
+Discovered open port 482/tcp on 192.168.15.100
+Discovered open port 434/tcp on 192.168.15.100
+Discovered open port 907/tcp on 192.168.15.100
+Discovered open port 566/tcp on 192.168.15.100
+Discovered open port 241/tcp on 192.168.15.100
+Discovered open port 643/tcp on 192.168.15.100
+Discovered open port 556/tcp on 192.168.15.100
+Discovered open port 476/tcp on 192.168.15.100
+Discovered open port 14/tcp on 192.168.15.100
+Discovered open port 40/tcp on 192.168.15.100
+Discovered open port 454/tcp on 192.168.15.100
+Discovered open port 760/tcp on 192.168.15.100
+Discovered open port 271/tcp on 192.168.15.100
+Discovered open port 407/tcp on 192.168.15.100
+Discovered open port 157/tcp on 192.168.15.100
+Discovered open port 634/tcp on 192.168.15.100
+Discovered open port 667/tcp on 192.168.15.100
+Discovered open port 857/tcp on 192.168.15.100
+Discovered open port 105/tcp on 192.168.15.100
+Discovered open port 719/tcp on 192.168.15.100
+Discovered open port 325/tcp on 192.168.15.100
+Discovered open port 899/tcp on 192.168.15.100
+Discovered open port 750/tcp on 192.168.15.100
+Discovered open port 889/tcp on 192.168.15.100
+Discovered open port 602/tcp on 192.168.15.100
+Discovered open port 687/tcp on 192.168.15.100
+Discovered open port 702/tcp on 192.168.15.100
+Discovered open port 981/tcp on 192.168.15.100
+Discovered open port 145/tcp on 192.168.15.100
+Discovered open port 729/tcp on 192.168.15.100
+Discovered open port 292/tcp on 192.168.15.100
+Discovered open port 424/tcp on 192.168.15.100
+Discovered open port 221/tcp on 192.168.15.100
+Discovered open port 29/tcp on 192.168.15.100
+Discovered open port 785/tcp on 192.168.15.100
+Discovered open port 844/tcp on 192.168.15.100
+Discovered open port 497/tcp on 192.168.15.100
+Discovered open port 282/tcp on 192.168.15.100
+Discovered open port 489/tcp on 192.168.15.100
+Discovered open port 542/tcp on 192.168.15.100
+Discovered open port 726/tcp on 192.168.15.100
+Discovered open port 212/tcp on 192.168.15.100
+Discovered open port 211/tcp on 192.168.15.100
+Discovered open port 295/tcp on 192.168.15.100
+Discovered open port 540/tcp on 192.168.15.100
+Discovered open port 358/tcp on 192.168.15.100
+Discovered open port 832/tcp on 192.168.15.100
+Discovered open port 436/tcp on 192.168.15.100
+Discovered open port 1/tcp on 192.168.15.100
+Discovered open port 403/tcp on 192.168.15.100
+Discovered open port 966/tcp on 192.168.15.100
+Discovered open port 348/tcp on 192.168.15.100
+Discovered open port 917/tcp on 192.168.15.100
+Discovered open port 818/tcp on 192.168.15.100
+Discovered open port 796/tcp on 192.168.15.100
+Discovered open port 361/tcp on 192.168.15.100
+Discovered open port 801/tcp on 192.168.15.100
+Discovered open port 435/tcp on 192.168.15.100
+Discovered open port 775/tcp on 192.168.15.100
+Discovered open port 567/tcp on 192.168.15.100
+Discovered open port 28/tcp on 192.168.15.100
+Discovered open port 66/tcp on 192.168.15.100
+Discovered open port 579/tcp on 192.168.15.100
+Discovered open port 327/tcp on 192.168.15.100
+Discovered open port 310/tcp on 192.168.15.100
+Discovered open port 797/tcp on 192.168.15.100
+Discovered open port 524/tcp on 192.168.15.100
+Discovered open port 834/tcp on 192.168.15.100
+Discovered open port 557/tcp on 192.168.15.100
+Discovered open port 762/tcp on 192.168.15.100
+Discovered open port 630/tcp on 192.168.15.100
+Discovered open port 410/tcp on 192.168.15.100
+Discovered open port 598/tcp on 192.168.15.100
+Discovered open port 276/tcp on 192.168.15.100
+Discovered open port 391/tcp on 192.168.15.100
+Discovered open port 467/tcp on 192.168.15.100
+Discovered open port 359/tcp on 192.168.15.100
+Discovered open port 809/tcp on 192.168.15.100
+Discovered open port 688/tcp on 192.168.15.100
+Discovered open port 649/tcp on 192.168.15.100
+Discovered open port 20/tcp on 192.168.15.100
+Discovered open port 841/tcp on 192.168.15.100
+Discovered open port 367/tcp on 192.168.15.100
+Discovered open port 147/tcp on 192.168.15.100
+Discovered open port 601/tcp on 192.168.15.100
+Discovered open port 480/tcp on 192.168.15.100
+Discovered open port 69/tcp on 192.168.15.100
+Discovered open port 533/tcp on 192.168.15.100
+Discovered open port 660/tcp on 192.168.15.100
+Discovered open port 595/tcp on 192.168.15.100
+Discovered open port 225/tcp on 192.168.15.100
+Discovered open port 737/tcp on 192.168.15.100
+Discovered open port 733/tcp on 192.168.15.100
+Discovered open port 585/tcp on 192.168.15.100
+Discovered open port 298/tcp on 192.168.15.100
+Discovered open port 70/tcp on 192.168.15.100
+Discovered open port 606/tcp on 192.168.15.100
+Discovered open port 488/tcp on 192.168.15.100
+Discovered open port 914/tcp on 192.168.15.100
+Discovered open port 421/tcp on 192.168.15.100
+Discovered open port 191/tcp on 192.168.15.100
+Discovered open port 186/tcp on 192.168.15.100
+Discovered open port 419/tcp on 192.168.15.100
+Discovered open port 992/tcp on 192.168.15.100
+Discovered open port 940/tcp on 192.168.15.100
+Discovered open port 47/tcp on 192.168.15.100
+Discovered open port 167/tcp on 192.168.15.100
+Discovered open port 686/tcp on 192.168.15.100
+Discovered open port 93/tcp on 192.168.15.100
+Discovered open port 882/tcp on 192.168.15.100
+Discovered open port 582/tcp on 192.168.15.100
+Discovered open port 713/tcp on 192.168.15.100
+Discovered open port 82/tcp on 192.168.15.100
+Discovered open port 677/tcp on 192.168.15.100
+Discovered open port 935/tcp on 192.168.15.100
+Discovered open port 692/tcp on 192.168.15.100
+Discovered open port 967/tcp on 192.168.15.100
+Discovered open port 172/tcp on 192.168.15.100
+Discovered open port 332/tcp on 192.168.15.100
+Discovered open port 972/tcp on 192.168.15.100
+Discovered open port 621/tcp on 192.168.15.100
+Discovered open port 39/tcp on 192.168.15.100
+Discovered open port 690/tcp on 192.168.15.100
+Discovered open port 562/tcp on 192.168.15.100
+Discovered open port 753/tcp on 192.168.15.100
+Discovered open port 48/tcp on 192.168.15.100
+Discovered open port 406/tcp on 192.168.15.100
+Discovered open port 300/tcp on 192.168.15.100
+Discovered open port 816/tcp on 192.168.15.100
+Discovered open port 819/tcp on 192.168.15.100
+Discovered open port 583/tcp on 192.168.15.100
+Discovered open port 57/tcp on 192.168.15.100
+Discovered open port 340/tcp on 192.168.15.100
+Discovered open port 549/tcp on 192.168.15.100
+Discovered open port 83/tcp on 192.168.15.100
+Discovered open port 975/tcp on 192.168.15.100
+Discovered open port 362/tcp on 192.168.15.100
+Discovered open port 171/tcp on 192.168.15.100
+Discovered open port 908/tcp on 192.168.15.100
+Discovered open port 122/tcp on 192.168.15.100
+Discovered open port 219/tcp on 192.168.15.100
+Discovered open port 991/tcp on 192.168.15.100
+Discovered open port 90/tcp on 192.168.15.100
+Discovered open port 274/tcp on 192.168.15.100
+Discovered open port 806/tcp on 192.168.15.100
+Discovered open port 428/tcp on 192.168.15.100
+Discovered open port 68/tcp on 192.168.15.100
+Discovered open port 852/tcp on 192.168.15.100
+Discovered open port 121/tcp on 192.168.15.100
+Discovered open port 728/tcp on 192.168.15.100
+Discovered open port 411/tcp on 192.168.15.100
+Discovered open port 65/tcp on 192.168.15.100
+Discovered open port 301/tcp on 192.168.15.100
+Discovered open port 570/tcp on 192.168.15.100
+Discovered open port 849/tcp on 192.168.15.100
+Discovered open port 177/tcp on 192.168.15.100
+Discovered open port 163/tcp on 192.168.15.100
+Discovered open port 242/tcp on 192.168.15.100
+Discovered open port 56/tcp on 192.168.15.100
+Discovered open port 909/tcp on 192.168.15.100
+Discovered open port 850/tcp on 192.168.15.100
+Discovered open port 160/tcp on 192.168.15.100
+Discovered open port 999/tcp on 192.168.15.100
+Discovered open port 657/tcp on 192.168.15.100
+Discovered open port 789/tcp on 192.168.15.100
+Discovered open port 862/tcp on 192.168.15.100
+Discovered open port 986/tcp on 192.168.15.100
+Discovered open port 631/tcp on 192.168.15.100
+Discovered open port 335/tcp on 192.168.15.100
+Discovered open port 71/tcp on 192.168.15.100
+Discovered open port 956/tcp on 192.168.15.100
+Discovered open port 812/tcp on 192.168.15.100
+Discovered open port 62/tcp on 192.168.15.100
+Discovered open port 50/tcp on 192.168.15.100
+Discovered open port 868/tcp on 192.168.15.100
+Discovered open port 734/tcp on 192.168.15.100
+Discovered open port 452/tcp on 192.168.15.100
+Discovered open port 67/tcp on 192.168.15.100
+Discovered open port 390/tcp on 192.168.15.100
+Discovered open port 839/tcp on 192.168.15.100
+Discovered open port 455/tcp on 192.168.15.100
+Discovered open port 108/tcp on 192.168.15.100
+Discovered open port 896/tcp on 192.168.15.100
+Discovered open port 471/tcp on 192.168.15.100
+Discovered open port 848/tcp on 192.168.15.100
+Discovered open port 193/tcp on 192.168.15.100
+Discovered open port 746/tcp on 192.168.15.100
+Discovered open port 447/tcp on 192.168.15.100
+Discovered open port 759/tcp on 192.168.15.100
+Discovered open port 851/tcp on 192.168.15.100
+Discovered open port 32/tcp on 192.168.15.100
+Discovered open port 308/tcp on 192.168.15.100
+Discovered open port 260/tcp on 192.168.15.100
+Discovered open port 498/tcp on 192.168.15.100
+Discovered open port 754/tcp on 192.168.15.100
+Discovered open port 532/tcp on 192.168.15.100
+Discovered open port 158/tcp on 192.168.15.100
+Discovered open port 659/tcp on 192.168.15.100
+Discovered open port 936/tcp on 192.168.15.100
+Discovered open port 627/tcp on 192.168.15.100
+Discovered open port 268/tcp on 192.168.15.100
+Discovered open port 866/tcp on 192.168.15.100
+Discovered open port 783/tcp on 192.168.15.100
+Discovered open port 52/tcp on 192.168.15.100
+Discovered open port 648/tcp on 192.168.15.100
+Discovered open port 343/tcp on 192.168.15.100
+Discovered open port 887/tcp on 192.168.15.100
+Discovered open port 858/tcp on 192.168.15.100
+Discovered open port 112/tcp on 192.168.15.100
+Discovered open port 731/tcp on 192.168.15.100
+Discovered open port 561/tcp on 192.168.15.100
+Discovered open port 236/tcp on 192.168.15.100
+Discovered open port 854/tcp on 192.168.15.100
+Discovered open port 694/tcp on 192.168.15.100
+Discovered open port 324/tcp on 192.168.15.100
+Discovered open port 326/tcp on 192.168.15.100
+Discovered open port 810/tcp on 192.168.15.100
+Discovered open port 977/tcp on 192.168.15.100
+Discovered open port 752/tcp on 192.168.15.100
+Discovered open port 169/tcp on 192.168.15.100
+Discovered open port 538/tcp on 192.168.15.100
+Discovered open port 125/tcp on 192.168.15.100
+Discovered open port 35/tcp on 192.168.15.100
+Discovered open port 322/tcp on 192.168.15.100
+Discovered open port 712/tcp on 192.168.15.100
+Discovered open port 615/tcp on 192.168.15.100
+Discovered open port 685/tcp on 192.168.15.100
+Discovered open port 97/tcp on 192.168.15.100
+Discovered open port 946/tcp on 192.168.15.100
+Discovered open port 565/tcp on 192.168.15.100
+Discovered open port 312/tcp on 192.168.15.100
+Discovered open port 508/tcp on 192.168.15.100
+Discovered open port 530/tcp on 192.168.15.100
+Discovered open port 748/tcp on 192.168.15.100
+Discovered open port 500/tcp on 192.168.15.100
+Discovered open port 772/tcp on 192.168.15.100
+Discovered open port 662/tcp on 192.168.15.100
+Discovered open port 718/tcp on 192.168.15.100
+Discovered open port 786/tcp on 192.168.15.100
+Discovered open port 294/tcp on 192.168.15.100
+Discovered open port 102/tcp on 192.168.15.100
+Discovered open port 872/tcp on 192.168.15.100
+Discovered open port 426/tcp on 192.168.15.100
+Discovered open port 939/tcp on 192.168.15.100
+Discovered open port 253/tcp on 192.168.15.100
+Discovered open port 517/tcp on 192.168.15.100
+Discovered open port 347/tcp on 192.168.15.100
+Discovered open port 888/tcp on 192.168.15.100
+Discovered open port 156/tcp on 192.168.15.100
+Discovered open port 134/tcp on 192.168.15.100
+Discovered open port 365/tcp on 192.168.15.100
+Discovered open port 764/tcp on 192.168.15.100
+Discovered open port 418/tcp on 192.168.15.100
+Discovered open port 233/tcp on 192.168.15.100
+Discovered open port 195/tcp on 192.168.15.100
+Discovered open port 741/tcp on 192.168.15.100
+Discovered open port 209/tcp on 192.168.15.100
+Discovered open port 378/tcp on 192.168.15.100
+Discovered open port 965/tcp on 192.168.15.100
+Discovered open port 969/tcp on 192.168.15.100
+Discovered open port 215/tcp on 192.168.15.100
+Discovered open port 464/tcp on 192.168.15.100
+Discovered open port 725/tcp on 192.168.15.100
+Discovered open port 885/tcp on 192.168.15.100
+Discovered open port 185/tcp on 192.168.15.100
+Discovered open port 609/tcp on 192.168.15.100
+Discovered open port 278/tcp on 192.168.15.100
+Discovered open port 439/tcp on 192.168.15.100
+Discovered open port 354/tcp on 192.168.15.100
+Discovered open port 539/tcp on 192.168.15.100
+Discovered open port 252/tcp on 192.168.15.100
+Discovered open port 520/tcp on 192.168.15.100
+Discovered open port 747/tcp on 192.168.15.100
+Discovered open port 588/tcp on 192.168.15.100
+Discovered open port 432/tcp on 192.168.15.100
+Discovered open port 468/tcp on 192.168.15.100
+Discovered open port 51/tcp on 192.168.15.100
+Discovered open port 280/tcp on 192.168.15.100
+Discovered open port 840/tcp on 192.168.15.100
+Discovered open port 710/tcp on 192.168.15.100
+Discovered open port 75/tcp on 192.168.15.100
+Discovered open port 581/tcp on 192.168.15.100
+Discovered open port 552/tcp on 192.168.15.100
+Discovered open port 645/tcp on 192.168.15.100
+Discovered open port 616/tcp on 192.168.15.100
+Discovered open port 477/tcp on 192.168.15.100
+Discovered open port 982/tcp on 192.168.15.100
+Discovered open port 811/tcp on 192.168.15.100
+Discovered open port 791/tcp on 192.168.15.100
+Discovered open port 777/tcp on 192.168.15.100
+Discovered open port 740/tcp on 192.168.15.100
+Discovered open port 984/tcp on 192.168.15.100
+Discovered open port 652/tcp on 192.168.15.100
+Discovered open port 928/tcp on 192.168.15.100
+Discovered open port 116/tcp on 192.168.15.100
+Discovered open port 257/tcp on 192.168.15.100
+Discovered open port 716/tcp on 192.168.15.100
+Discovered open port 506/tcp on 192.168.15.100
+Discovered open port 146/tcp on 192.168.15.100
+Discovered open port 404/tcp on 192.168.15.100
+Discovered open port 637/tcp on 192.168.15.100
+Discovered open port 664/tcp on 192.168.15.100
+Discovered open port 164/tcp on 192.168.15.100
+Discovered open port 381/tcp on 192.168.15.100
+Discovered open port 133/tcp on 192.168.15.100
+Discovered open port 959/tcp on 192.168.15.100
+Discovered open port 727/tcp on 192.168.15.100
+Discovered open port 900/tcp on 192.168.15.100
+Discovered open port 4/tcp on 192.168.15.100
+Discovered open port 527/tcp on 192.168.15.100
+Discovered open port 30/tcp on 192.168.15.100
+Discovered open port 412/tcp on 192.168.15.100
+Discovered open port 881/tcp on 192.168.15.100
+Discovered open port 526/tcp on 192.168.15.100
+Discovered open port 721/tcp on 192.168.15.100
+Discovered open port 46/tcp on 192.168.15.100
+Discovered open port 958/tcp on 192.168.15.100
+Discovered open port 626/tcp on 192.168.15.100
+Discovered open port 950/tcp on 192.168.15.100
+Discovered open port 912/tcp on 192.168.15.100
+Discovered open port 944/tcp on 192.168.15.100
+Discovered open port 722/tcp on 192.168.15.100
+Discovered open port 871/tcp on 192.168.15.100
+Discovered open port 624/tcp on 192.168.15.100
+Discovered open port 479/tcp on 192.168.15.100
+Discovered open port 269/tcp on 192.168.15.100
+Discovered open port 336/tcp on 192.168.15.100
+Discovered open port 289/tcp on 192.168.15.100
+Discovered open port 334/tcp on 192.168.15.100
+Discovered open port 341/tcp on 192.168.15.100
+Discovered open port 784/tcp on 192.168.15.100
+Discovered open port 512/tcp on 192.168.15.100
+Discovered open port 720/tcp on 192.168.15.100
+Discovered open port 244/tcp on 192.168.15.100
+Discovered open port 545/tcp on 192.168.15.100
+Discovered open port 316/tcp on 192.168.15.100
+Discovered open port 558/tcp on 192.168.15.100
+Discovered open port 465/tcp on 192.168.15.100
+Discovered open port 377/tcp on 192.168.15.100
+Discovered open port 971/tcp on 192.168.15.100
+Discovered open port 979/tcp on 192.168.15.100
+Discovered open port 339/tcp on 192.168.15.100
+Discovered open port 118/tcp on 192.168.15.100
+Discovered open port 291/tcp on 192.168.15.100
+Discovered open port 915/tcp on 192.168.15.100
+Discovered open port 736/tcp on 192.168.15.100
+Discovered open port 305/tcp on 192.168.15.100
+Discovered open port 629/tcp on 192.168.15.100
+Discovered open port 921/tcp on 192.168.15.100
+Discovered open port 117/tcp on 192.168.15.100
+Discovered open port 904/tcp on 192.168.15.100
+Discovered open port 829/tcp on 192.168.15.100
+Discovered open port 198/tcp on 192.168.15.100
+Discovered open port 805/tcp on 192.168.15.100
+Discovered open port 387/tcp on 192.168.15.100
+Discovered open port 59/tcp on 192.168.15.100
+Discovered open port 262/tcp on 192.168.15.100
+Discovered open port 776/tcp on 192.168.15.100
+Discovered open port 976/tcp on 192.168.15.100
+Discovered open port 798/tcp on 192.168.15.100
+Discovered open port 355/tcp on 192.168.15.100
+Discovered open port 184/tcp on 192.168.15.100
+Discovered open port 564/tcp on 192.168.15.100
+Discovered open port 807/tcp on 192.168.15.100
+Discovered open port 95/tcp on 192.168.15.100
+Discovered open port 891/tcp on 192.168.15.100
+Discovered open port 319/tcp on 192.168.15.100
+Discovered open port 864/tcp on 192.168.15.100
+Discovered open port 779/tcp on 192.168.15.100
+Discovered open port 949/tcp on 192.168.15.100
+Discovered open port 883/tcp on 192.168.15.100
+Discovered open port 525/tcp on 192.168.15.100
+Discovered open port 444/tcp on 192.168.15.100
+Discovered open port 925/tcp on 192.168.15.100
+Discovered open port 584/tcp on 192.168.15.100
+Discovered open port 671/tcp on 192.168.15.100
+Discovered open port 81/tcp on 192.168.15.100
+Discovered open port 38/tcp on 192.168.15.100
+Discovered open port 433/tcp on 192.168.15.100
+Discovered open port 952/tcp on 192.168.15.100
+Discovered open port 874/tcp on 192.168.15.100
+Discovered open port 730/tcp on 192.168.15.100
+Discovered open port 296/tcp on 192.168.15.100
+Discovered open port 859/tcp on 192.168.15.100
+Discovered open port 709/tcp on 192.168.15.100
+Discovered open port 846/tcp on 192.168.15.100
+Discovered open port 544/tcp on 192.168.15.100
+Discovered open port 550/tcp on 192.168.15.100
+Discovered open port 317/tcp on 192.168.15.100
+Discovered open port 263/tcp on 192.168.15.100
+Discovered open port 654/tcp on 192.168.15.100
+Discovered open port 504/tcp on 192.168.15.100
+Discovered open port 861/tcp on 192.168.15.100
+Discovered open port 951/tcp on 192.168.15.100
+Discovered open port 162/tcp on 192.168.15.100
+Discovered open port 699/tcp on 192.168.15.100
+Discovered open port 228/tcp on 192.168.15.100
+Discovered open port 315/tcp on 192.168.15.100
+Discovered open port 473/tcp on 192.168.15.100
+Discovered open port 168/tcp on 192.168.15.100
+Discovered open port 767/tcp on 192.168.15.100
+Discovered open port 927/tcp on 192.168.15.100
+Discovered open port 385/tcp on 192.168.15.100
+Discovered open port 224/tcp on 192.168.15.100
+Discovered open port 978/tcp on 192.168.15.100
+Discovered open port 485/tcp on 192.168.15.100
+Discovered open port 608/tcp on 192.168.15.100
+Discovered open port 131/tcp on 192.168.15.100
+Discovered open port 451/tcp on 192.168.15.100
+Discovered open port 903/tcp on 192.168.15.100
+Discovered open port 457/tcp on 192.168.15.100
+Discovered open port 618/tcp on 192.168.15.100
+Discovered open port 350/tcp on 192.168.15.100
+Discovered open port 793/tcp on 192.168.15.100
+Discovered open port 313/tcp on 192.168.15.100
+Discovered open port 395/tcp on 192.168.15.100
+Discovered open port 60/tcp on 192.168.15.100
+Discovered open port 580/tcp on 192.168.15.100
+Discovered open port 641/tcp on 192.168.15.100
+Discovered open port 297/tcp on 192.168.15.100
+Discovered open port 929/tcp on 192.168.15.100
+Discovered open port 932/tcp on 192.168.15.100
+Discovered open port 983/tcp on 192.168.15.100
+Discovered open port 905/tcp on 192.168.15.100
+Discovered open port 955/tcp on 192.168.15.100
+Discovered open port 870/tcp on 192.168.15.100
+Discovered open port 352/tcp on 192.168.15.100
+Discovered open port 668/tcp on 192.168.15.100
+Discovered open port 511/tcp on 192.168.15.100
+Discovered open port 510/tcp on 192.168.15.100
+Discovered open port 307/tcp on 192.168.15.100
+Discovered open port 674/tcp on 192.168.15.100
+Discovered open port 663/tcp on 192.168.15.100
+Discovered open port 214/tcp on 192.168.15.100
+Discovered open port 237/tcp on 192.168.15.100
+Discovered open port 855/tcp on 192.168.15.100
+Discovered open port 144/tcp on 192.168.15.100
+Discovered open port 937/tcp on 192.168.15.100
+Discovered open port 611/tcp on 192.168.15.100
+Discovered open port 787/tcp on 192.168.15.100
+Discovered open port 680/tcp on 192.168.15.100
+Discovered open port 384/tcp on 192.168.15.100
+Discovered open port 360/tcp on 192.168.15.100
+Discovered open port 998/tcp on 192.168.15.100
+Discovered open port 658/tcp on 192.168.15.100
+Discovered open port 646/tcp on 192.168.15.100
+Discovered open port 531/tcp on 192.168.15.100
+Discovered open port 44/tcp on 192.168.15.100
+Discovered open port 205/tcp on 192.168.15.100
+Discovered open port 41/tcp on 192.168.15.100
+Discovered open port 37/tcp on 192.168.15.100
+Discovered open port 63/tcp on 192.168.15.100
+Discovered open port 31/tcp on 192.168.15.100
+Discovered open port 251/tcp on 192.168.15.100
+Discovered open port 894/tcp on 192.168.15.100
+Discovered open port 821/tcp on 192.168.15.100
+Discovered open port 64/tcp on 192.168.15.100
+Discovered open port 141/tcp on 192.168.15.100
+Discovered open port 306/tcp on 192.168.15.100
+Discovered open port 107/tcp on 192.168.15.100
+Completed SYN Stealth Scan at 00:28, 0.33s elapsed (1000 total ports)
+Nmap scan report for 192.168.15.100
+Host is up (0.00047s latency).
+
+PORT     STATE SERVICE
+1/tcp    open  tcpmux
+2/tcp    open  compressnet
+3/tcp    open  compressnet
+4/tcp    open  unknown
+5/tcp    open  rje
+6/tcp    open  unknown
+7/tcp    open  echo
+8/tcp    open  unknown
+9/tcp    open  discard
+10/tcp   open  unknown
+11/tcp   open  systat
+12/tcp   open  unknown
+13/tcp   open  daytime
+14/tcp   open  unknown
+15/tcp   open  netstat
+16/tcp   open  unknown
+17/tcp   open  qotd
+18/tcp   open  msp
+19/tcp   open  chargen
+20/tcp   open  ftp-data
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+24/tcp   open  priv-mail
+25/tcp   open  smtp
+26/tcp   open  rsftp
+27/tcp   open  nsw-fe
+28/tcp   open  unknown
+29/tcp   open  msg-icp
+30/tcp   open  unknown
+31/tcp   open  msg-auth
+32/tcp   open  unknown
+33/tcp   open  dsp
+34/tcp   open  unknown
+35/tcp   open  priv-print
+36/tcp   open  unknown
+37/tcp   open  time
+38/tcp   open  rap
+39/tcp   open  rlp
+40/tcp   open  unknown
+41/tcp   open  graphics
+42/tcp   open  nameserver
+43/tcp   open  whois
+44/tcp   open  mpm-flags
+45/tcp   open  mpm
+46/tcp   open  mpm-snd
+47/tcp   open  ni-ftp
+48/tcp   open  auditd
+49/tcp   open  tacacs
+50/tcp   open  re-mail-ck
+51/tcp   open  la-maint
+52/tcp   open  xns-time
+53/tcp   open  domain
+54/tcp   open  xns-ch
+55/tcp   open  isi-gl
+56/tcp   open  xns-auth
+57/tcp   open  priv-term
+58/tcp   open  xns-mail
+59/tcp   open  priv-file
+60/tcp   open  unknown
+61/tcp   open  ni-mail
+62/tcp   open  acas
+63/tcp   open  via-ftp
+64/tcp   open  covia
+65/tcp   open  tacacs-ds
+66/tcp   open  sqlnet
+67/tcp   open  dhcps
+68/tcp   open  dhcpc
+69/tcp   open  tftp
+70/tcp   open  gopher
+71/tcp   open  netrjs-1
+72/tcp   open  netrjs-2
+73/tcp   open  netrjs-3
+74/tcp   open  netrjs-4
+75/tcp   open  priv-dial
+76/tcp   open  deos
+77/tcp   open  priv-rje
+78/tcp   open  vettcp
+79/tcp   open  finger
+80/tcp   open  http
+81/tcp   open  hosts2-ns
+82/tcp   open  xfer
+83/tcp   open  mit-ml-dev
+84/tcp   open  ctf
+85/tcp   open  mit-ml-dev
+86/tcp   open  mfcobol
+87/tcp   open  priv-term-l
+88/tcp   open  kerberos-sec
+89/tcp   open  su-mit-tg
+90/tcp   open  dnsix
+91/tcp   open  mit-dov
+92/tcp   open  npp
+93/tcp   open  dcp
+94/tcp   open  objcall
+95/tcp   open  supdup
+96/tcp   open  dixie
+97/tcp   open  swift-rvf
+98/tcp   open  linuxconf
+99/tcp   open  metagram
+100/tcp  open  newacct
+101/tcp  open  hostname
+102/tcp  open  iso-tsap
+103/tcp  open  gppitnp
+104/tcp  open  acr-nema
+105/tcp  open  csnet-ns
+106/tcp  open  pop3pw
+107/tcp  open  rtelnet
+108/tcp  open  snagas
+109/tcp  open  pop2
+110/tcp  open  pop3
+111/tcp  open  rpcbind
+112/tcp  open  mcidas
+113/tcp  open  ident
+114/tcp  open  audionews
+115/tcp  open  sftp
+116/tcp  open  ansanotify
+117/tcp  open  uucp-path
+118/tcp  open  sqlserv
+119/tcp  open  nntp
+120/tcp  open  cfdptkt
+121/tcp  open  erpc
+122/tcp  open  smakynet
+123/tcp  open  ntp
+124/tcp  open  ansatrader
+125/tcp  open  locus-map
+126/tcp  open  unitary
+127/tcp  open  locus-con
+128/tcp  open  gss-xlicen
+129/tcp  open  pwdgen
+130/tcp  open  cisco-fna
+131/tcp  open  cisco-tna
+132/tcp  open  cisco-sys
+133/tcp  open  statsrv
+134/tcp  open  ingres-net
+135/tcp  open  msrpc
+136/tcp  open  profile
+137/tcp  open  netbios-ns
+138/tcp  open  netbios-dgm
+139/tcp  open  netbios-ssn
+140/tcp  open  emfis-data
+141/tcp  open  emfis-cntl
+142/tcp  open  bl-idm
+143/tcp  open  imap
+144/tcp  open  news
+145/tcp  open  uaac
+146/tcp  open  iso-tp0
+147/tcp  open  iso-ip
+148/tcp  open  cronus
+149/tcp  open  aed-512
+150/tcp  open  sql-net
+151/tcp  open  hems
+152/tcp  open  bftp
+153/tcp  open  sgmp
+154/tcp  open  netsc-prod
+155/tcp  open  netsc-dev
+156/tcp  open  sqlsrv
+157/tcp  open  knet-cmp
+158/tcp  open  pcmail-srv
+159/tcp  open  nss-routing
+160/tcp  open  sgmp-traps
+161/tcp  open  snmp
+162/tcp  open  snmptrap
+163/tcp  open  cmip-man
+164/tcp  open  cmip-agent
+165/tcp  open  xns-courier
+166/tcp  open  s-net
+167/tcp  open  namp
+168/tcp  open  rsvd
+169/tcp  open  send
+170/tcp  open  print-srv
+171/tcp  open  multiplex
+172/tcp  open  cl-1
+173/tcp  open  xyplex-mux
+174/tcp  open  mailq
+175/tcp  open  vmnet
+176/tcp  open  genrad-mux
+177/tcp  open  xdmcp
+178/tcp  open  nextstep
+179/tcp  open  bgp
+180/tcp  open  ris
+181/tcp  open  unify
+182/tcp  open  audit
+183/tcp  open  ocbinder
+184/tcp  open  ocserver
+185/tcp  open  remote-kis
+186/tcp  open  kis
+187/tcp  open  aci
+188/tcp  open  mumps
+189/tcp  open  qft
+190/tcp  open  gacp
+191/tcp  open  prospero
+192/tcp  open  osu-nms
+193/tcp  open  srmp
+194/tcp  open  irc
+195/tcp  open  dn6-nlm-aud
+196/tcp  open  dn6-smm-red
+197/tcp  open  dls
+198/tcp  open  dls-mon
+199/tcp  open  smux
+200/tcp  open  src
+201/tcp  open  at-rtmp
+202/tcp  open  at-nbp
+203/tcp  open  at-3
+204/tcp  open  at-echo
+205/tcp  open  at-5
+206/tcp  open  at-zis
+207/tcp  open  at-7
+208/tcp  open  at-8
+209/tcp  open  tam
+210/tcp  open  z39.50
+211/tcp  open  914c-g
+212/tcp  open  anet
+213/tcp  open  ipx
+214/tcp  open  vmpwscs
+215/tcp  open  softpc
+216/tcp  open  atls
+217/tcp  open  dbase
+218/tcp  open  mpp
+219/tcp  open  uarps
+220/tcp  open  imap3
+221/tcp  open  fln-spx
+222/tcp  open  rsh-spx
+223/tcp  open  cdc
+224/tcp  open  masqdialer
+225/tcp  open  unknown
+226/tcp  open  unknown
+227/tcp  open  unknown
+228/tcp  open  unknown
+229/tcp  open  unknown
+230/tcp  open  unknown
+231/tcp  open  unknown
+232/tcp  open  unknown
+233/tcp  open  unknown
+234/tcp  open  unknown
+235/tcp  open  unknown
+236/tcp  open  unknown
+237/tcp  open  unknown
+238/tcp  open  unknown
+239/tcp  open  unknown
+240/tcp  open  unknown
+241/tcp  open  unknown
+242/tcp  open  direct
+243/tcp  open  sur-meas
+244/tcp  open  dayna
+245/tcp  open  link
+246/tcp  open  dsp3270
+247/tcp  open  subntbcst_tftp
+248/tcp  open  bhfhs
+249/tcp  open  unknown
+250/tcp  open  unknown
+251/tcp  open  unknown
+252/tcp  open  unknown
+253/tcp  open  unknown
+254/tcp  open  unknown
+255/tcp  open  unknown
+256/tcp  open  fw1-secureremote
+257/tcp  open  fw1-mc-fwmodule
+258/tcp  open  fw1-mc-gui
+259/tcp  open  esro-gen
+260/tcp  open  openport
+261/tcp  open  nsiiops
+262/tcp  open  arcisdms
+263/tcp  open  hdap
+264/tcp  open  bgmp
+265/tcp  open  maybe-fw1
+266/tcp  open  sst
+267/tcp  open  td-service
+268/tcp  open  td-replica
+269/tcp  open  manet
+270/tcp  open  gist
+271/tcp  open  pt-tls
+272/tcp  open  unknown
+273/tcp  open  unknown
+274/tcp  open  unknown
+275/tcp  open  unknown
+276/tcp  open  unknown
+277/tcp  open  unknown
+278/tcp  open  unknown
+279/tcp  open  unknown
+280/tcp  open  http-mgmt
+281/tcp  open  personal-link
+282/tcp  open  cableport-ax
+283/tcp  open  rescap
+284/tcp  open  corerjd
+285/tcp  open  unknown
+286/tcp  open  fxp
+287/tcp  open  k-block
+288/tcp  open  unknown
+289/tcp  open  unknown
+290/tcp  open  unknown
+291/tcp  open  unknown
+292/tcp  open  unknown
+293/tcp  open  unknown
+294/tcp  open  unknown
+295/tcp  open  unknown
+296/tcp  open  unknown
+297/tcp  open  unknown
+298/tcp  open  unknown
+299/tcp  open  unknown
+300/tcp  open  unknown
+301/tcp  open  unknown
+302/tcp  open  unknown
+303/tcp  open  unknown
+304/tcp  open  unknown
+305/tcp  open  unknown
+306/tcp  open  unknown
+307/tcp  open  unknown
+308/tcp  open  novastorbakcup
+309/tcp  open  entrusttime
+310/tcp  open  bhmds
+311/tcp  open  asip-webadmin
+312/tcp  open  vslmp
+313/tcp  open  magenta-logic
+314/tcp  open  opalis-robot
+315/tcp  open  dpsi
+316/tcp  open  decauth
+317/tcp  open  zannet
+318/tcp  open  pkix-timestamp
+319/tcp  open  ptp-event
+320/tcp  open  ptp-general
+321/tcp  open  pip
+322/tcp  open  rtsps
+323/tcp  open  rpki-rtr
+324/tcp  open  rpki-rtr-tls
+325/tcp  open  unknown
+326/tcp  open  unknown
+327/tcp  open  unknown
+328/tcp  open  unknown
+329/tcp  open  unknown
+330/tcp  open  unknown
+331/tcp  open  unknown
+332/tcp  open  unknown
+333/tcp  open  texar
+334/tcp  open  unknown
+335/tcp  open  unknown
+336/tcp  open  unknown
+337/tcp  open  unknown
+338/tcp  open  unknown
+339/tcp  open  unknown
+340/tcp  open  unknown
+341/tcp  open  unknown
+342/tcp  open  unknown
+343/tcp  open  unknown
+344/tcp  open  pdap
+345/tcp  open  pawserv
+346/tcp  open  zserv
+347/tcp  open  fatserv
+348/tcp  open  csi-sgwp
+349/tcp  open  mftp
+350/tcp  open  matip-type-a
+351/tcp  open  matip-type-b
+352/tcp  open  dtag-ste-sb
+353/tcp  open  ndsauth
+354/tcp  open  bh611
+355/tcp  open  datex-asn
+356/tcp  open  cloanto-net-1
+357/tcp  open  bhevent
+358/tcp  open  shrinkwrap
+359/tcp  open  tenebris_nts
+360/tcp  open  scoi2odialog
+361/tcp  open  semantix
+362/tcp  open  srssend
+363/tcp  open  rsvp_tunnel
+364/tcp  open  aurora-cmgr
+365/tcp  open  dtk
+366/tcp  open  odmr
+367/tcp  open  mortgageware
+368/tcp  open  qbikgdp
+369/tcp  open  rpc2portmap
+370/tcp  open  codaauth2
+371/tcp  open  clearcase
+372/tcp  open  ulistserv
+373/tcp  open  legent-1
+374/tcp  open  legent-2
+375/tcp  open  hassle
+376/tcp  open  nip
+377/tcp  open  tnETOS
+378/tcp  open  dsETOS
+379/tcp  open  is99c
+380/tcp  open  is99s
+381/tcp  open  hp-collector
+382/tcp  open  hp-managed-node
+383/tcp  open  hp-alarm-mgr
+384/tcp  open  arns
+385/tcp  open  ibm-app
+386/tcp  open  asa
+387/tcp  open  aurp
+388/tcp  open  unidata-ldm
+389/tcp  open  ldap
+390/tcp  open  uis
+391/tcp  open  synotics-relay
+392/tcp  open  synotics-broker
+393/tcp  open  dis
+394/tcp  open  embl-ndt
+395/tcp  open  netcp
+396/tcp  open  netware-ip
+397/tcp  open  mptn
+398/tcp  open  kryptolan
+399/tcp  open  iso-tsap-c2
+400/tcp  open  work-sol
+401/tcp  open  ups
+402/tcp  open  genie
+403/tcp  open  decap
+404/tcp  open  nced
+405/tcp  open  ncld
+406/tcp  open  imsp
+407/tcp  open  timbuktu
+408/tcp  open  prm-sm
+409/tcp  open  prm-nm
+410/tcp  open  decladebug
+411/tcp  open  rmt
+412/tcp  open  synoptics-trap
+413/tcp  open  smsp
+414/tcp  open  infoseek
+415/tcp  open  bnet
+416/tcp  open  silverplatter
+417/tcp  open  onmux
+418/tcp  open  hyper-g
+419/tcp  open  ariel1
+420/tcp  open  smpte
+421/tcp  open  ariel2
+422/tcp  open  ariel3
+423/tcp  open  opc-job-start
+424/tcp  open  opc-job-track
+425/tcp  open  icad-el
+426/tcp  open  smartsdp
+427/tcp  open  svrloc
+428/tcp  open  ocs_cmu
+429/tcp  open  ocs_amu
+430/tcp  open  utmpsd
+431/tcp  open  utmpcd
+432/tcp  open  iasd
+433/tcp  open  nnsp
+434/tcp  open  mobileip-agent
+435/tcp  open  mobilip-mn
+436/tcp  open  dna-cml
+437/tcp  open  comscm
+438/tcp  open  dsfgw
+439/tcp  open  dasp
+440/tcp  open  sgcp
+441/tcp  open  decvms-sysmgt
+442/tcp  open  cvc_hostd
+443/tcp  open  https
+444/tcp  open  snpp
+445/tcp  open  microsoft-ds
+446/tcp  open  ddm-rdb
+447/tcp  open  ddm-dfm
+448/tcp  open  ddm-ssl
+449/tcp  open  as-servermap
+450/tcp  open  tserver
+451/tcp  open  sfs-smp-net
+452/tcp  open  sfs-config
+453/tcp  open  creativeserver
+454/tcp  open  contentserver
+455/tcp  open  creativepartnr
+456/tcp  open  macon
+457/tcp  open  scohelp
+458/tcp  open  appleqtc
+459/tcp  open  ampr-rcmd
+460/tcp  open  skronk
+461/tcp  open  datasurfsrv
+462/tcp  open  datasurfsrvsec
+463/tcp  open  alpes
+464/tcp  open  kpasswd5
+465/tcp  open  smtps
+466/tcp  open  digital-vrc
+467/tcp  open  mylex-mapd
+468/tcp  open  photuris
+469/tcp  open  rcp
+470/tcp  open  scx-proxy
+471/tcp  open  mondex
+472/tcp  open  ljk-login
+473/tcp  open  hybrid-pop
+474/tcp  open  tn-tl-w1
+475/tcp  open  tcpnethaspsrv
+476/tcp  open  tn-tl-fd1
+477/tcp  open  ss7ns
+478/tcp  open  spsc
+479/tcp  open  iafserver
+480/tcp  open  loadsrv
+481/tcp  open  dvs
+482/tcp  open  bgs-nsi
+483/tcp  open  ulpnet
+484/tcp  open  integra-sme
+485/tcp  open  powerburst
+486/tcp  open  sstats
+487/tcp  open  saft
+488/tcp  open  gss-http
+489/tcp  open  nest-protocol
+490/tcp  open  micom-pfs
+491/tcp  open  go-login
+492/tcp  open  ticf-1
+493/tcp  open  ticf-2
+494/tcp  open  pov-ray
+495/tcp  open  intecourier
+496/tcp  open  pim-rp-disc
+497/tcp  open  retrospect
+498/tcp  open  siam
+499/tcp  open  iso-ill
+500/tcp  open  isakmp
+501/tcp  open  stmf
+502/tcp  open  mbap
+503/tcp  open  intrinsa
+504/tcp  open  citadel
+505/tcp  open  mailbox-lm
+506/tcp  open  ohimsrv
+507/tcp  open  crs
+508/tcp  open  xvttp
+509/tcp  open  snare
+510/tcp  open  fcp
+511/tcp  open  passgo
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+515/tcp  open  printer
+516/tcp  open  videotex
+517/tcp  open  talk
+518/tcp  open  ntalk
+519/tcp  open  utime
+520/tcp  open  efs
+521/tcp  open  ripng
+522/tcp  open  ulp
+523/tcp  open  ibm-db2
+524/tcp  open  ncp
+525/tcp  open  timed
+526/tcp  open  tempo
+527/tcp  open  stx
+528/tcp  open  custix
+529/tcp  open  irc
+530/tcp  open  courier
+531/tcp  open  conference
+532/tcp  open  netnews
+533/tcp  open  netwall
+534/tcp  open  mm-admin
+535/tcp  open  iiop
+536/tcp  open  opalis-rdv
+537/tcp  open  nmsp
+538/tcp  open  gdomap
+539/tcp  open  apertus-ldp
+540/tcp  open  uucp
+541/tcp  open  uucp-rlogin
+542/tcp  open  commerce
+543/tcp  open  klogin
+544/tcp  open  kshell
+545/tcp  open  ekshell
+546/tcp  open  dhcpv6-client
+547/tcp  open  dhcpv6-server
+548/tcp  open  afp
+549/tcp  open  idfp
+550/tcp  open  new-rwho
+551/tcp  open  cybercash
+552/tcp  open  deviceshare
+553/tcp  open  pirp
+554/tcp  open  rtsp
+555/tcp  open  dsf
+556/tcp  open  remotefs
+557/tcp  open  openvms-sysipc
+558/tcp  open  sdnskmp
+559/tcp  open  teedtap
+560/tcp  open  rmonitor
+561/tcp  open  monitor
+562/tcp  open  chshell
+563/tcp  open  snews
+564/tcp  open  9pfs
+565/tcp  open  whoami
+566/tcp  open  streettalk
+567/tcp  open  banyan-rpc
+568/tcp  open  ms-shuttle
+569/tcp  open  ms-rome
+570/tcp  open  meter
+571/tcp  open  umeter
+572/tcp  open  sonar
+573/tcp  open  banyan-vip
+574/tcp  open  ftp-agent
+575/tcp  open  vemmi
+576/tcp  open  ipcd
+577/tcp  open  vnas
+578/tcp  open  ipdd
+579/tcp  open  decbsrv
+580/tcp  open  sntp-heartbeat
+581/tcp  open  bdp
+582/tcp  open  scc-security
+583/tcp  open  philips-vc
+584/tcp  open  keyserver
+585/tcp  open  imap4-ssl
+586/tcp  open  password-chg
+587/tcp  open  submission
+588/tcp  open  cal
+589/tcp  open  eyelink
+590/tcp  open  tns-cml
+591/tcp  open  http-alt
+592/tcp  open  eudora-set
+593/tcp  open  http-rpc-epmap
+594/tcp  open  tpip
+595/tcp  open  cab-protocol
+596/tcp  open  smsd
+597/tcp  open  ptcnameservice
+598/tcp  open  sco-websrvrmg3
+599/tcp  open  acp
+600/tcp  open  ipcserver
+601/tcp  open  syslog-conn
+602/tcp  open  xmlrpc-beep
+603/tcp  open  mnotes
+604/tcp  open  tunnel
+605/tcp  open  soap-beep
+606/tcp  open  urm
+607/tcp  open  nqs
+608/tcp  open  sift-uft
+609/tcp  open  npmp-trap
+610/tcp  open  npmp-local
+611/tcp  open  npmp-gui
+612/tcp  open  hmmp-ind
+613/tcp  open  hmmp-op
+614/tcp  open  sshell
+615/tcp  open  sco-inetmgr
+616/tcp  open  sco-sysmgr
+617/tcp  open  sco-dtmgr
+618/tcp  open  dei-icda
+619/tcp  open  compaq-evm
+620/tcp  open  sco-websrvrmgr
+621/tcp  open  escp-ip
+622/tcp  open  collaborator
+623/tcp  open  oob-ws-http
+624/tcp  open  cryptoadmin
+625/tcp  open  apple-xsrvr-admin
+626/tcp  open  apple-imap-admin
+627/tcp  open  passgo-tivoli
+628/tcp  open  qmqp
+629/tcp  open  3com-amp3
+630/tcp  open  rda
+631/tcp  open  ipp
+632/tcp  open  bmpp
+633/tcp  open  servstat
+634/tcp  open  ginad
+635/tcp  open  rlzdbase
+636/tcp  open  ldapssl
+637/tcp  open  lanserver
+638/tcp  open  mcns-sec
+639/tcp  open  msdp
+640/tcp  open  entrust-sps
+641/tcp  open  repcmd
+642/tcp  open  esro-emsdp
+643/tcp  open  sanity
+644/tcp  open  dwr
+645/tcp  open  pssc
+646/tcp  open  ldp
+647/tcp  open  dhcp-failover
+648/tcp  open  rrp
+649/tcp  open  cadview-3d
+650/tcp  open  obex
+651/tcp  open  ieee-mms
+652/tcp  open  hello-port
+653/tcp  open  repscmd
+654/tcp  open  aodv
+655/tcp  open  tinc
+656/tcp  open  spmp
+657/tcp  open  rmc
+658/tcp  open  tenfold
+659/tcp  open  unknown
+660/tcp  open  mac-srvr-admin
+661/tcp  open  hap
+662/tcp  open  pftp
+663/tcp  open  purenoise
+664/tcp  open  secure-aux-bus
+665/tcp  open  sun-dr
+666/tcp  open  doom
+667/tcp  open  disclose
+668/tcp  open  mecomm
+669/tcp  open  meregister
+670/tcp  open  vacdsm-sws
+671/tcp  open  vacdsm-app
+672/tcp  open  vpps-qua
+673/tcp  open  cimplex
+674/tcp  open  acap
+675/tcp  open  dctp
+676/tcp  open  vpps-via
+677/tcp  open  vpp
+678/tcp  open  ggf-ncp
+679/tcp  open  mrm
+680/tcp  open  entrust-aaas
+681/tcp  open  entrust-aams
+682/tcp  open  xfr
+683/tcp  open  corba-iiop
+684/tcp  open  corba-iiop-ssl
+685/tcp  open  mdc-portmapper
+686/tcp  open  hcp-wismar
+687/tcp  open  asipregistry
+688/tcp  open  realm-rusd
+689/tcp  open  nmap
+690/tcp  open  vatp
+691/tcp  open  resvc
+692/tcp  open  hyperwave-isp
+693/tcp  open  connendp
+694/tcp  open  ha-cluster
+695/tcp  open  ieee-mms-ssl
+696/tcp  open  rushd
+697/tcp  open  uuidgen
+698/tcp  open  olsr
+699/tcp  open  accessnetwork
+700/tcp  open  epp
+701/tcp  open  lmp
+702/tcp  open  iris-beep
+703/tcp  open  unknown
+704/tcp  open  elcsd
+705/tcp  open  agentx
+706/tcp  open  silc
+707/tcp  open  borland-dsj
+708/tcp  open  unknown
+709/tcp  open  entrustmanager
+710/tcp  open  entrust-ash
+711/tcp  open  cisco-tdp
+712/tcp  open  tbrpf
+713/tcp  open  iris-xpc
+714/tcp  open  iris-xpcs
+715/tcp  open  iris-lwz
+716/tcp  open  pana
+717/tcp  open  unknown
+718/tcp  open  unknown
+719/tcp  open  unknown
+720/tcp  open  unknown
+721/tcp  open  unknown
+722/tcp  open  unknown
+723/tcp  open  omfs
+724/tcp  open  unknown
+725/tcp  open  unknown
+726/tcp  open  unknown
+727/tcp  open  unknown
+728/tcp  open  unknown
+729/tcp  open  netviewdm1
+730/tcp  open  netviewdm2
+731/tcp  open  netviewdm3
+732/tcp  open  unknown
+733/tcp  open  unknown
+734/tcp  open  unknown
+735/tcp  open  unknown
+736/tcp  open  unknown
+737/tcp  open  unknown
+738/tcp  open  unknown
+739/tcp  open  unknown
+740/tcp  open  netcp
+741/tcp  open  netgw
+742/tcp  open  netrcs
+743/tcp  open  unknown
+744/tcp  open  flexlm
+745/tcp  open  unknown
+746/tcp  open  unknown
+747/tcp  open  fujitsu-dev
+748/tcp  open  ris-cm
+749/tcp  open  kerberos-adm
+750/tcp  open  kerberos
+751/tcp  open  kadmin
+752/tcp  open  qrh
+753/tcp  open  rrh
+754/tcp  open  krb_prop
+755/tcp  open  unknown
+756/tcp  open  unknown
+757/tcp  open  unknown
+758/tcp  open  nlogin
+759/tcp  open  con
+760/tcp  open  krbupdate
+761/tcp  open  kpasswd
+762/tcp  open  quotad
+763/tcp  open  cycleserv
+764/tcp  open  omserv
+765/tcp  open  webster
+766/tcp  open  unknown
+767/tcp  open  phonebook
+768/tcp  open  unknown
+769/tcp  open  vid
+770/tcp  open  cadlock
+771/tcp  open  rtip
+772/tcp  open  cycleserv2
+773/tcp  open  submit
+774/tcp  open  rpasswd
+775/tcp  open  entomb
+776/tcp  open  wpages
+777/tcp  open  multiling-http
+778/tcp  open  unknown
+779/tcp  open  unknown
+780/tcp  open  wpgs
+781/tcp  open  hp-collector
+782/tcp  open  hp-managed-node
+783/tcp  open  spamassassin
+784/tcp  open  unknown
+785/tcp  open  unknown
+786/tcp  open  concert
+787/tcp  open  qsc
+788/tcp  open  unknown
+789/tcp  open  unknown
+790/tcp  open  unknown
+791/tcp  open  unknown
+792/tcp  open  unknown
+793/tcp  open  unknown
+794/tcp  open  unknown
+795/tcp  open  unknown
+796/tcp  open  unknown
+797/tcp  open  unknown
+798/tcp  open  unknown
+799/tcp  open  controlit
+800/tcp  open  mdbs_daemon
+801/tcp  open  device
+802/tcp  open  mbap-s
+803/tcp  open  unknown
+804/tcp  open  unknown
+805/tcp  open  unknown
+806/tcp  open  unknown
+807/tcp  open  unknown
+808/tcp  open  ccproxy-http
+809/tcp  open  unknown
+810/tcp  open  fcp-udp
+811/tcp  open  unknown
+812/tcp  open  unknown
+813/tcp  open  unknown
+814/tcp  open  unknown
+815/tcp  open  unknown
+816/tcp  open  unknown
+817/tcp  open  unknown
+818/tcp  open  unknown
+819/tcp  open  unknown
+820/tcp  open  unknown
+821/tcp  open  unknown
+822/tcp  open  unknown
+823/tcp  open  unknown
+824/tcp  open  unknown
+825/tcp  open  unknown
+826/tcp  open  unknown
+827/tcp  open  unknown
+828/tcp  open  itm-mcell-s
+829/tcp  open  pkix-3-ca-ra
+830/tcp  open  netconf-ssh
+831/tcp  open  netconf-beep
+832/tcp  open  netconfsoaphttp
+833/tcp  open  netconfsoapbeep
+834/tcp  open  unknown
+835/tcp  open  unknown
+836/tcp  open  unknown
+837/tcp  open  unknown
+838/tcp  open  unknown
+839/tcp  open  unknown
+840/tcp  open  unknown
+841/tcp  open  unknown
+842/tcp  open  unknown
+843/tcp  open  unknown
+844/tcp  open  unknown
+845/tcp  open  unknown
+846/tcp  open  unknown
+847/tcp  open  dhcp-failover2
+848/tcp  open  gdoi
+849/tcp  open  unknown
+850/tcp  open  unknown
+851/tcp  open  unknown
+852/tcp  open  unknown
+853/tcp  open  domain-s
+854/tcp  open  dlep
+855/tcp  open  unknown
+856/tcp  open  unknown
+857/tcp  open  unknown
+858/tcp  open  unknown
+859/tcp  open  unknown
+860/tcp  open  iscsi
+861/tcp  open  owamp-control
+862/tcp  open  twamp-control
+863/tcp  open  unknown
+864/tcp  open  unknown
+865/tcp  open  unknown
+866/tcp  open  unknown
+867/tcp  open  unknown
+868/tcp  open  unknown
+869/tcp  open  unknown
+870/tcp  open  unknown
+871/tcp  open  supfilesrv
+872/tcp  open  unknown
+873/tcp  open  rsync
+874/tcp  open  unknown
+875/tcp  open  unknown
+876/tcp  open  unknown
+877/tcp  open  unknown
+878/tcp  open  unknown
+879/tcp  open  unknown
+880/tcp  open  unknown
+881/tcp  open  unknown
+882/tcp  open  unknown
+883/tcp  open  unknown
+884/tcp  open  unknown
+885/tcp  open  unknown
+886/tcp  open  iclcnet-locate
+887/tcp  open  iclcnet_svinfo
+888/tcp  open  accessbuilder
+889/tcp  open  unknown
+890/tcp  open  unknown
+891/tcp  open  unknown
+892/tcp  open  unknown
+893/tcp  open  unknown
+894/tcp  open  unknown
+895/tcp  open  unknown
+896/tcp  open  unknown
+897/tcp  open  unknown
+898/tcp  open  sun-manageconsole
+899/tcp  open  unknown
+900/tcp  open  omginitialrefs
+901/tcp  open  samba-swat
+902/tcp  open  iss-realsecure
+903/tcp  open  iss-console-mgr
+904/tcp  open  unknown
+905/tcp  open  unknown
+906/tcp  open  unknown
+907/tcp  open  unknown
+908/tcp  open  unknown
+909/tcp  open  unknown
+910/tcp  open  kink
+911/tcp  open  xact-backup
+912/tcp  open  apex-mesh
+913/tcp  open  apex-edge
+914/tcp  open  rift-lies
+915/tcp  open  rift-ties
+916/tcp  open  unknown
+917/tcp  open  unknown
+918/tcp  open  unknown
+919/tcp  open  unknown
+920/tcp  open  unknown
+921/tcp  open  unknown
+922/tcp  open  unknown
+923/tcp  open  unknown
+924/tcp  open  unknown
+925/tcp  open  unknown
+926/tcp  open  unknown
+927/tcp  open  unknown
+928/tcp  open  unknown
+929/tcp  open  unknown
+930/tcp  open  unknown
+931/tcp  open  unknown
+932/tcp  open  unknown
+933/tcp  open  unknown
+934/tcp  open  unknown
+935/tcp  open  unknown
+936/tcp  open  unknown
+937/tcp  open  unknown
+938/tcp  open  unknown
+939/tcp  open  unknown
+940/tcp  open  unknown
+941/tcp  open  unknown
+942/tcp  open  unknown
+943/tcp  open  unknown
+944/tcp  open  unknown
+945/tcp  open  unknown
+946/tcp  open  unknown
+947/tcp  open  unknown
+948/tcp  open  unknown
+949/tcp  open  unknown
+950/tcp  open  oftep-rpc
+951/tcp  open  unknown
+952/tcp  open  unknown
+953/tcp  open  rndc
+954/tcp  open  unknown
+955/tcp  open  unknown
+956/tcp  open  unknown
+957/tcp  open  unknown
+958/tcp  open  unknown
+959/tcp  open  unknown
+960/tcp  open  unknown
+961/tcp  open  unknown
+962/tcp  open  unknown
+963/tcp  open  unknown
+964/tcp  open  unknown
+965/tcp  open  unknown
+966/tcp  open  unknown
+967/tcp  open  unknown
+968/tcp  open  unknown
+969/tcp  open  unknown
+970/tcp  open  unknown
+971/tcp  open  unknown
+972/tcp  open  unknown
+973/tcp  open  unknown
+974/tcp  open  unknown
+975/tcp  open  securenetpro-sensor
+976/tcp  open  unknown
+977/tcp  open  unknown
+978/tcp  open  unknown
+979/tcp  open  unknown
+980/tcp  open  unknown
+981/tcp  open  unknown
+982/tcp  open  unknown
+983/tcp  open  unknown
+984/tcp  open  unknown
+985/tcp  open  unknown
+986/tcp  open  unknown
+987/tcp  open  unknown
+988/tcp  open  unknown
+989/tcp  open  ftps-data
+990/tcp  open  ftps
+991/tcp  open  nas
+992/tcp  open  telnets
+993/tcp  open  imaps
+994/tcp  open  ircs
+995/tcp  open  pop3s
+996/tcp  open  xtreelic
+997/tcp  open  maitrd
+998/tcp  open  busboy
+999/tcp  open  garcon
+1000/tcp open  cadlock
+MAC Address: 00:50:79:66:68:00 (Private)
+
+Read data files from: /usr/share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 13.67 seconds
+           Raw packets sent: 1001 (44.028KB) | Rcvd: 1001 (40.028KB)
+                                                                           
