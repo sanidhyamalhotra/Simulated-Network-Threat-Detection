@@ -1,0 +1,16 @@
+# Query 1: View all ARP reply events
+sourcetype="arp_logs" "is-at"
+
+# Query 2: Count MACs associated with each IP
+sourcetype="arp_logs" "is-at"
+| rex field=_raw "(?<ip_address>\d+\.\d+\.\d+\.\d+).*is-at (?<mac_address>\S+)"
+| stats dc(mac_address) as mac_count by ip_address
+
+# Query 3: Show all IP-MAC pairs
+sourcetype="arp_logs" "is-at"
+| rex field=_raw "(?<ip_address>\d+\.\d+\.\d+\.\d+).*is-at (?<mac_address>\S+)"
+| table _time, ip_address, mac_address
+
+# Query 4: Count ARP replies over time
+sourcetype="arp_logs" "is-at"
+| timechart count
