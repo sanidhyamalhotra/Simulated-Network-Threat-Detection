@@ -22,7 +22,7 @@ We are using **Splunk Enterprise (Free Edition)** to:
 
 | Log File | Purpose |
 |----------|---------|
-| `clean_logs_with_timestamps.log` | Normal baseline traffic |
+| `clean_logs.log` | Normal baseline traffic |
 | `arp_attack_real_log.log`        | ARP spoofing attack |
 | `port_scan_log.log`              | Nmap port scan activity |
 | `brute_force_log.log`            | SSH brute-force login attempts |
