@@ -1,0 +1,15 @@
+# Query 1: View all events from the clean log
+sourcetype="Clean_logs"
+
+# Query 2: Timechart of event frequency
+sourcetype="Clean_logs"
+| timechart count
+
+# Query 3: Extract ping targets and count
+sourcetype="Clean_logs"
+| rex field=_raw "ping (?<target_ip>\\d+\\.\\d+\\.\\d+\\.\\d+)"
+| stats count by target_ip
+
+# Query 4: Top 5 most frequent lines (simulate message volume)
+sourcetype="Clean_logs"
+| top limit=5 _raw
