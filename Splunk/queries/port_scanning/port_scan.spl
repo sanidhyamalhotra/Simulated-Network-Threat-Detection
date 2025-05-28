@@ -1,0 +1,17 @@
+# Query 1: View all port scan events
+sourcetype="port_scan"
+
+# Query 2: Extract open port numbers and count frequency
+sourcetype="port_scan"
+| rex field=_raw "open port (?<port>\d+)/tcp"
+| stats count by port
+| sort - count
+
+# Query 3: Count open ports per scanned IP
+sourcetype="port_scan"
+| rex field=_raw "open port (?<port>\d+)/tcp on (?<target_ip>\d+\.\d+\.\d+\.\d+)"
+| stats count by target_ip
+
+# Query 4: Timechart of scanning activity
+sourcetype="port_scan"
+| timechart count
