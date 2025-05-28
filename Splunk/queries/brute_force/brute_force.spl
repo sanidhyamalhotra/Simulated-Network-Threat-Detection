@@ -1,0 +1,17 @@
+# Query 1: View all brute-force log events
+sourcetype="brute_force"
+
+# Query 2: Detect all failed login attempts
+sourcetype="brute_force" "Failed login"
+| stats count by _time, _raw
+
+# Query 3: Count failed logins per source IP
+sourcetype="brute_force" "Failed login"
+| rex field=_raw "from (?<src_ip>\d+\.\d+\.\d+\.\d+)"
+| stats count by src_ip
+| where count > 3
+
+# Query 4: Count failed logins per user
+sourcetype="brute_force" "Failed login"
+| rex field=_raw "user: (?<user>\w+)"
+| stats count by user

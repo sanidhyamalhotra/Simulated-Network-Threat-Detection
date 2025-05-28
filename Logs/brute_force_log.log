@@ -14,4 +14,10 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2025-05-27 02:13:
 [STATUS] 61.45 tries/min, 2500 tries in 00:41h, 14341900 to do in 3892:19h, 4 active
 [STATUS] 60.80 tries/min, 2900 tries in 00:48h, 14341500 to do in 3925:42h, 4 active
 [STATUS] 59.98 tries/min, 3300 tries in 00:55h, 14341100 to do in 3988:05h, 4 active
+
+[2025-05-27 02:13:41] Failed login for user: admin from 192.168.15.130
+[2025-05-27 02:13:43] Failed login for user: admin from 192.168.15.130
+[2025-05-27 02:13:46] Failed login for user: admin from 192.168.15.130
+[2025-05-27 02:13:49] Failed login for user: admin from 192.168.15.130
+[2025-05-27 02:13:52] Failed login for user: admin from 192.168.15.130
 ^CThe session file ./hydra.restore was written. Type "hydra -R" to resume session.
